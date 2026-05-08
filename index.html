@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Bolos e Receitas</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/css.css">
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+Bolos e Receitas
+</div>
+
+<nav>
+<a href="#inicio">Início</a>
+<a href="#bolos">Bolos</a>
+<a href="#sobremesas">Sobremesas</a>
+<a href="#contato">Contato</a>
+</nav>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero" id="inicio">
+
+<div class="hero-text">
+
+<div class="tag">
+Receitas deliciosas e fáceis
+</div>
+
+<h1>
+As Melhores Receitas Estão Aqui 🍰
+</h1>
+
+<p>
+Receitas completas com ingredientes e modo de preparo.
+</p>
+
+<div class="search-box">
+
+<input type="text" id="searchInput" placeholder="Digite uma receita...">
+
+<button id="searchBtn">
+Buscar
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- BOLOS -->
+
+<section class="section" id="bolos">
+
+<div class="title">
+
+<h2>
+Bolos
+</h2>
+
+<p>
+Bolos fofinhos e deliciosos.
+</p>
+
+</div>
+
+<div class="recipes" id="bolosContainer"></div>
+
+</section>
+
+<!-- SOBREMESAS -->
+
+<section class="section" id="sobremesas">
+
+<div class="title">
+
+<h2>
+Sobremesas
+</h2>
+
+<p>
+Sobremesas incríveis e irresistíveis.
+</p>
+
+</div>
+
+<div class="recipes" id="sobremesasContainer"></div>
+
+</section>
+
+<!-- CONTATO -->
+
+
+<section class="section" id="contato">
+
+<div class="newsletter">
+
+<h2>
+Contato
+</h2>
+
+<p>
+bolosereceitas2026@outlook.com
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>
+Bolos e Receitas
+</h2>
+
+<p>
+Receitas caseiras fáceis e deliciosas.
+</p>
+
+<a href="politica.html">Política de Privacidade</a>
+
+<a href="termos.html">Termos de Uso</a>
+
+</footer>
+
+<!-- COPYRIGHT -->
+
+<div class="copyright">
+© 2026 Bolos e Receitas  - Todos os direitos reservados.
+</div>
+
+<!-- MODAL -->
+
+<div class="recipe-modal" id="recipeModal">
+
+<div class="modal-content">
+
+<span class="close" onclick="closeRecipe()">
+×
+</span>
+
+<div id="recipeContent"></div>
+
+</div>
+
+</div>
+
+<script>
+
+const receitas = [
+
+/* =========================
+   BOLOS
+========================= */
+
+{
+nome:"Bolo de Cenoura",
+categoria:"bolos",
+imagem:"./bolos/cenoura.jpg",
+descricao:"Bolo fofinho com cobertura de chocolate.",
+receita:`
+<h2>Bolo de Cenoura 🥕</h2>
+
+<h3>Ingredientes</h3>
+<p>
+• 3 cenouras<br>
+• 3 ovos<br>
+• 1 xícara de óleo<br>
+• 2 xícaras de açúcar<br>
+• 2 xícaras de farinha<br>
+• 1 colher de fermento
+</p>
+
+<h3>Modo de Preparo</h3>
+<p>
+Bata cenoura, ovos e óleo.
+Misture farinha e açúcar.
+Adicione fermento.
+Asse por 40 minutos.
+</p>
+`
+},
+
+{
+nome:"Bolo Vulcão",
+categoria:"bolos",
+imagem:"./bolos/vulcao.JPEG",
+descricao:"Muito chocolate e cobertura cremosa.",
+receita:`
+
+<h2>Bolo Vulcão 🍫</h2>
+
+<h3>Ingredientes da Massa</h3>
+<ul>
+  <li>3 ovos</li>
+  <li>1 xícara de açúcar</li>
+  <li>1 xícara de chocolate em pó 50% cacau</li>
+  <li>2 xícaras de farinha de trigo (sem fermento)</li>
+  <li>1 xícara de óleo</li>
+  <li>1 xícara de leite ou água quente</li>
+  <li>1 colher (sopa) de fermento em pó</li>
+</ul>
+
+<h3>Ingredientes da Cobertura</h3>
+<ul>
+  <li>1 lata de leite condensado (395 g)</li>
+  <li>1 caixinha de creme de leite (200 g)</li>
+  <li>3 colheres (sopa) de chocolate em pó</li>
+  <li>1 colher (sopa) de manteiga</li>
+</ul>
+
+<h3>Modo de Preparo</h3>
+<ol>
+  <li>Bata no liquidificador ou com um fuê os ovos, o açúcar, o óleo e o chocolate em pó até obter uma mistura homogênea.</li>
+
+  <li>Adicione a farinha de trigo aos poucos, misturando delicadamente.</li>
+
+  <li>Acrescente o fermento em pó e misture suavemente.</li>
+
+  <li>Despeje a massa em uma forma ballerine untada e enfarinhada.</li>
+
+  <li>Leve ao forno preaquecido a 180°C por aproximadamente 35 a 40 minutos.</li>
+
+  <li>Para a cobertura, misture em uma panela o leite condensado, o creme de leite, o chocolate em pó e a manteiga.</li>
+
+  <li>Leve ao fogo baixo, mexendo sempre, até levantar fervura e ficar cremoso, sem atingir ponto de brigadeiro firme.</li>
+
+  <li>Espere o bolo esfriar e desenforme.</li>
+
+  <li>Despeje a cobertura ainda morna no centro do bolo para escorrer pelas laterais, formando o efeito vulcão.</li>
+</ol>
+
+`
+},
+
+{
+nome:"Bolo de Chocolate",
+categoria:"bolos",
+imagem:"./bolos/chocolate.JPG",
+descricao:"Chocolate intenso delicioso.",
+receita:`
+
+<h2>Bolo de Chocolate 🍫</h2>
+
+<h3>Ingredientes da Massa</h3>
+<ul>
+  <li>3 ovos</li>
+  <li>1 xícara de açúcar</li>
+  <li>1 xícara de chocolate em pó 50% cacau</li>
+  <li>2 xícaras de farinha de trigo (sem fermento)</li>
+  <li>1 xícara de óleo</li>
+  <li>1 xícara de leite ou água quente</li>
+  <li>1 colher (sopa) de fermento em pó</li>
+</ul>
+
+<h3>Ingredientes da Cobertura</h3>
+<ul>
+  <li>1 lata de leite condensado (395 g)</li>
+  <li>1 caixinha de creme de leite (200 g)</li>
+  <li>3 colheres (sopa) de chocolate em pó</li>
+  <li>1 colher (sopa) de manteiga</li>
+</ul>
+
+<h3>Modo de Preparo</h3>
+<ol>
+  <li>Bata no liquidificador ou com um fuê os ovos, o açúcar, o óleo e o chocolate em pó até obter uma mistura homogênea.</li>
+
+  <li>Adicione a farinha de trigo aos poucos, misturando delicadamente.</li>
+
+  <li>Acrescente o fermento em pó e misture suavemente.</li>
+
+  <li>Despeje a massa em uma forma untada e enfarinhada.</li>
+
+  <li>Leve ao forno preaquecido a 180°C por aproximadamente 35 a 40 minutos.</li>
+
+  <li>Para a cobertura, misture em uma panela o leite condensado, o creme de leite, o chocolate em pó e a manteiga.</li>
+
+  <li>Leve ao fogo baixo, mexendo sempre, até levantar fervura e ficar cremoso.</li>
+
+  <li>Espere o bolo esfriar e desenforme.</li>
+
+  <li>Despeje a cobertura ainda morna sobre o bolo.</li>
+</ol>
+
+`
+},
+
+{
+nome:"Bolo Prestígio",
+categoria:"bolos",
+imagem:"https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=1200&auto=format&fit=crop",
+descricao:"Chocolate com coco.",
+receita:`
+
+<h2>Bolo Prestígio 🥥</h2>
+
+<h3>Ingredientes da Massa</h3>
+<ul>
+  <li>3 ovos</li>
+  <li>1/2 xícara (chá) de óleo</li>
+  <li>1 xícara (chá) de leite</li>
+  <li>1 xícara (chá) de açúcar</li>
+  <li>1 xícara (chá) de chocolate em pó</li>
+  <li>2 xícaras (chá) de farinha de trigo</li>
+  <li>1 colher (sopa) de fermento em pó</li>
+  <li>Coco ralado a gosto</li>
+</ul>
+
+<h3>Ingredientes do Recheio</h3>
+<ul>
+  <li>1 lata de leite condensado</li>
+  <li>1 colher (sopa) de margarina</li>
+  <li>100 g de coco ralado</li>
+</ul>
+
+<h3>Modo de Preparo</h3>
+<ol>
+  <li>Bata no liquidificador os ovos, o óleo e o leite por 3 minutos e reserve.</li>
+
+  <li>Em um recipiente, misture o açúcar, a farinha de trigo, o fermento, o chocolate em pó e o coco ralado.</li>
+
+  <li>Despeje a mistura do liquidificador sobre os ingredientes secos e mexa até obter uma massa homogênea.</li>
+
+  <li>Coloque a massa em uma forma untada e leve ao forno médio, preaquecido, por cerca de 30 minutos, ou até que um garfo saia limpo ao espetar o bolo.</li>
+
+  <li>Deixe esfriar, corte o bolo ao meio e reserve.</li>
+
+  <li>Prepare a calda misturando leite de coco, leite e açúcar. Despeje sobre as duas partes do bolo para deixá-lo úmido.</li>
+
+  <li>Para o recheio, leve ao fogo o leite condensado, a margarina e o coco ralado, mexendo até desgrudar do fundo da panela.</li>
+
+  <li>Prepare a cobertura levando ao fogo margarina, açúcar, chocolate em pó e leite até formar um creme firme.</li>
+
+  <li>Faça furos na metade inferior do bolo e despeje parte da calda.</li>
+
+  <li>Espalhe o recheio sobre a metade inferior.</li>
+
+  <li>Coloque a outra metade do bolo por cima.</li>
+
+  <li>Cubra com a cobertura de chocolate.</li>
+
+  <li>Leve à geladeira por 45 minutos antes de servir.</li>
+</ol>
+
+`
+},
+
+{
+nome:"Bolo Red Velvet",
+categoria:"bolos",
+imagem:"https://images.unsplash.com/photo-1535141192574-5d4897c12636?q=80&w=1200&auto=format&fit=crop",
+descricao:"Bolo vermelho famoso.",
+receita:`
+
+<h2>Bolo Red Velvet ❤️</h2>
+
+<h3>Ingredientes da Massa</h3>
+<ul>
+  <li>1 e 1/2 xícara (chá) de leite integral</li>
+  <li>1 colher (sopa) de suco de limão</li>
+  <li>1 xícara (chá) de manteiga sem sal em temperatura ambiente</li>
+  <li>1 e 1/2 xícara (chá) de açúcar</li>
+  <li>3 ovos</li>
+  <li>1 colher (sopa) de essência de baunilha</li>
+  <li>1 e 1/2 xícara (chá) de farinha de trigo</li>
+  <li>1 colher (sopa) de chocolate em pó 50%</li>
+  <li>1 e 1/2 colher (sopa) de fermento em pó</li>
+  <li>1 colher (chá) de corante líquido vermelho</li>
+</ul>
+
+<h3>Ingredientes do Recheio e Cobertura</h3>
+<ul>
+  <li>2 xícaras (chá) de cream cheese (450 g)</li>
+  <li>1/2 xícara (chá) de manteiga sem sal em temperatura ambiente</li>
+  <li>1 colher (sopa) de essência de baunilha</li>
+  <li>1 e 1/2 xícara (chá) de açúcar de confeiteiro peneirado</li>
+</ul>
+
+<h3>Modo de Preparo</h3>
+<ol>
+  <li>Misture o leite com o suco de limão e reserve por alguns minutos.</li>
+
+  <li>Na batedeira, bata a manteiga com o açúcar até formar um creme claro.</li>
+
+  <li>Adicione os ovos, um a um, e acrescente a essência de baunilha.</li>
+
+  <li>Adicione a farinha de trigo e o leite reservado aos poucos, alternando os ingredientes.</li>
+
+  <li>Acrescente o chocolate em pó, o corante vermelho e misture bem.</li>
+
+  <li>Por último, adicione o fermento em pó e misture delicadamente.</li>
+
+  <li>Despeje a massa em formas untadas e leve ao forno preaquecido a 180°C por cerca de 35 minutos.</li>
+
+  <li>Deixe a massa esfriar completamente.</li>
+
+  <li>Para o recheio e cobertura, bata o cream cheese, a manteiga e a baunilha até ficar cremoso.</li>
+
+  <li>Acrescente o açúcar de confeiteiro aos poucos até obter um creme liso.</li>
+
+  <li>Corte o bolo em 3 partes iguais.</li>
+
+  <li>Monte o bolo alternando camadas de massa e recheio.</li>
+
+  <li>Leve ao freezer por aproximadamente 1 hora.</li>
+
+  <li>Finalize cobrindo o bolo com o restante do creme e decore com farelos do bolo ou frutas vermelhas.</li>
+</ol>
+
+`
+},
+{
+nome:"Bolo de Fubá",
+categoria:"bolos",
+imagem:"./bolos/fuba.JFIF",
+descricao:"Bolo caseiro tradicional.",
+receita:`
+<h2>Bolo de Fubá 🌽</h2>
+
+<h3>Ingredientes</h3>
+<p>
+• Fubá<br>
+• Leite<br>
+• Ovos<br>
+• Farinha
+</p>
+
+<h3>Modo de Preparo</h3>
+<p>
+Misture tudo e asse até dourar.
+</p>
+`
+},
+
+{
+nome:"Bolo de Milho",
+categoria:"bolos",
+imagem:"https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?q=80&w=1200&auto=format&fit=crop",
+descricao:"Receita simples e deliciosa.",
+receita:`
+<h2>Bolo de Milho 🌽</h2>
+
+<h3>Ingredientes</h3>
+<p>
+• Milho<br>
+• Leite<br>
+• Ovos<br>
+• Açúcar
+</p>
+
+<h3>Modo de Preparo</h3>
+<p>
+Bata tudo no liquidificador e asse.
+</p>
+`
+},
+
+{
+nome:"Bolo de Coco",
+categoria:"bolos",
+imagem:"https://images.unsplash.com/photo-1519869325930-281384150729?q=80&w=1200&auto=format&fit=crop",
+descricao:"Bolo molhadinho delicioso.",
+receita:`
+<h2>Bolo de Coco 🥥</h2>
+
+<h3>Ingredientes</h3>
+<p>
+• Coco ralado<br>
+• Leite de coco<br>
+• Farinha
+</p>
+
+<h3>Modo de Preparo</h3>
+<p>
+Misture tudo e finalize com coco ralado.
+</p>
+`
+},
+
+{
+nome:"Bolo Formigueiro",
+categoria:"bolos",
+imagem:"https://images.unsplash.com/photo-1486427944299-d1955d23e34d?q=80&w=1200&auto=format&fit=crop",
+descricao:"Granulado na massa.",
+receita:`
+<h2>Bolo Formigueiro 🍫</h2>
+
+<h3>Ingredientes</h3>
+<p>
+• Farinha<br>
+• Ovos<br>
+• Chocolate granulado
+</p>
+
+<h3>Modo de Preparo</h3>
+<p>
+Misture tudo e asse até dourar.
+</p>
+`
+},
+
+{
+nome:"Bolo de Banana",
+categoria:"bolos",
+imagem:"https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=1200&auto=format&fit=crop",
+descricao:"Banana com canela.",
+receita:`
+<h2>Bolo de Banana 🍌</h2>
+
+<h3>Ingredientes</h3>
+<p>
+• Banana<br>
+• Canela<br>
+• Farinha
+</p>
+
+<h3>Modo de Preparo</h3>
+<p>
+Misture tudo e asse por 35 minutos.
+</p>
+`
+},
+
+{
+nome:"Bolo de Laranja",
+categoria:"bolos",
+imagem:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl2mOH2jFkRv23Ukxm3qPEmY9KT9Xm-VaxnDJGxVN8Pw&s",
+descricao:"Sabor cítrico delicioso.",
+receita:`
+<h2>Bolo de Laranja 🍊</h2>
+
+<h3>Ingredientes</h3>
+<p>
+• Suco de laranja<br>
+• Farinha<br>
+• Ovos
+</p>
+
+<h3>Modo de Preparo</h3>
+<p>
+Misture tudo e asse até crescer.
+</p>
+`
+},
+
+{
+nome:"Bolo de Limão",
+categoria:"bolos",
+imagem:"https://i0.wp.com/porkworld.com.br/wp-content/uploads/2023/05/receita-de-bolo-de-limao-e-iogurte.jpg?resize=800%2C530&ssl=1",
+descricao:"Cobertura cremosa.",
+receita:`
+<h2>Bolo de Limão 🍋</h2>
+
+<h3>Ingredientes</h3>
+<p>
+• Limão<br>
+• Farinha<br>
+• Leite condensado
+</p>
+
+<h3>Modo de Preparo</h3>
+<p>
+Misture tudo e cubra com mousse de limão.
+</p>
+`
+},
+
+{
+nome:"Bolo de Paçoca",
+categoria:"bolos",
+imagem:"./bolos/pacoca.JPG",
+descricao:"Muito sabor brasileiro.",
+receita:`
+
+<h2>Bolo de Paçoca 🥜</h2>
+
+<h3>Ingredientes da Massa</h3>
+<ul>
+  <li>3 ovos</li>
+  <li>1 xícara (chá) de açúcar</li>
+  <li>1 xícara (chá) de leite</li>
+  <li>1/2 xícara (chá) de óleo</li>
+  <li>4 a 5 paçocas tipo rolha esfareladas</li>
+  <li>2 xícaras (chá) de farinha de trigo</li>
+  <li>1 colher (sopa) de fermento em pó</li>
+</ul>
+
+<h3>Ingredientes da Cobertura</h3>
+<ul>
+  <li>1 lata de leite condensado</li>
+  <li>1 caixinha de creme de leite</li>
+  <li>3 paçocas esfareladas</li>
+</ul>
+
+<h3>Modo de Preparo</h3>
+<ol>
+  <li>No liquidificador, bata os ovos, o açúcar, o leite, o óleo e as paçocas até obter uma mistura homogênea.</li>
+
+  <li>Transfira a mistura para uma tigela.</li>
+
+  <li>Adicione a farinha de trigo peneirada aos poucos, mexendo delicadamente.</li>
+
+  <li>Acrescente o fermento em pó e misture suavemente.</li>
+
+  <li>Despeje a massa em uma forma untada e enfarinhada.</li>
+
+  <li>Leve ao forno preaquecido a 180°C por aproximadamente 35 a 45 minutos, ou até o palito sair limpo.</li>
+
+  <li>Para a cobertura, coloque em uma panela o leite condensado, o creme de leite e as paçocas esfareladas.</li>
+
+  <li>Leve ao fogo baixo, mexendo sempre, até engrossar levemente.</li>
+
+  <li>Despeje a cobertura sobre o bolo já frio.</li>
+
+  <li>Finalize decorando com mais paçoca esfarelada por cima.</li>
+</ol>
+
+`
+},
+
+{
+nome:"Bolo de Leite Ninho",
+categoria:"bolos",
+imagem:"https://images.unsplash.com/photo-1562440499-64c9a111f713?q=80&w=1200&auto=format&fit=crop",
+descricao:"Super cremoso.",
+receita:`
+
+<h2>Bolo de Leite Ninho 🥛</h2>
+
+<h3>Ingredientes da Massa</h3>
+<ul>
+  <li>3 a 4 ovos</li>
+  <li>1 a 2 xícaras (chá) de açúcar</li>
+  <li>3/4 a 1 xícara (chá) de leite em pó</li>
+  <li>1 e 1/2 a 2 xícaras (chá) de farinha de trigo</li>
+  <li>1/2 a 3/4 xícara de óleo ou 3 colheres (sopa) de manteiga</li>
+  <li>1 xícara (chá) de leite integral</li>
+  <li>1 colher (sopa) de fermento em pó</li>
+</ul>
+
+<h3>Ingredientes do Recheio e Cobertura</h3>
+<ul>
+  <li>1 lata de leite condensado</li>
+  <li>1 caixinha de creme de leite</li>
+  <li>1/2 a 1 xícara (chá) de leite em pó</li>
+  <li>1 colher (sopa) de manteiga (opcional)</li>
+  <li>Leite em pó para polvilhar</li>
+</ul>
+
+<h3>Modo de Preparo</h3>
+<ol>
+  <li>Bata os ovos com o açúcar por aproximadamente 3 minutos até formar um creme claro e fofo.</li>
+
+  <li>Adicione o óleo ou a manteiga, o leite integral e o leite em pó, misturando bem.</li>
+
+  <li>Acrescente a farinha de trigo aos poucos e mexa até a massa ficar homogênea.</li>
+
+  <li>Por último, adicione o fermento em pó e misture delicadamente.</li>
+
+  <li>Despeje a massa em uma forma untada e enfarinhada.</li>
+
+  <li>Leve ao forno preaquecido a 180°C por cerca de 35 a 40 minutos.</li>
+
+  <li>Para o recheio e cobertura, coloque em uma panela o leite condensado, o creme de leite, o leite em pó e a manteiga.</li>
+
+  <li>Leve ao fogo médio, mexendo sempre, até engrossar levemente e formar um creme.</li>
+
+  <li>Espere o bolo esfriar e cubra com o creme de leite Ninho.</li>
+
+  <li>Finalize polvilhando bastante leite em pó por cima.</li>
+</ol>
+
+`
+},
+
+{
+nome:"Bolo Piscina",
+categoria:"bolos",
+imagem:"https://images.unsplash.com/photo-1621303837174-89787a7d4729?q=80&w=1200&auto=format&fit=crop",
+descricao:"Cobertura gigante.",
+receita:`
+<h2>Bolo Piscina 🍫</h2>
+
+<p>
+Faça bolo simples e coloque muita cobertura.
+</p>
+`
+},
+
+{
+nome:"Bolo Gelado",
+categoria:"bolos",
+imagem:"https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1200&auto=format&fit=crop",
+descricao:"Geladinho no papel alumínio.",
+receita:`
+<h2>Bolo Gelado ❄️</h2>
+
+<p>
+Molhe o bolo com leite de coco e leve para gelar.
+</p>
+`
+},
+
+{
+nome:"Bolo Mármore",
+categoria:"bolos",
+imagem:"https://receitasdebemcasado.com/wp-content/uploads/2025/09/Receita-de-bolo-marmore-768x432.png",
+descricao:"Mistura de chocolate e baunilha.",
+receita:`
+<h2>Bolo Mármore 🤎</h2>
+
+<p>
+Misture massa branca com chocolate e asse.
+</p>
+`
+},
+
+{
+nome:"Bolo de Tapioca",
+categoria:"bolos",
+imagem:"./bolos/tapioca.JFIF",
+descricao:"Cremoso e delicioso, com coco e leite condensado.",
+receita:`
+
+<h2>Bolo de Tapioca 🥥</h2>
+
+<h3>Ingredientes do Bolo Cremoso (Sem Forno)</h3>
+<ul>
+  <li>300 g a 500 g de tapioca granulada</li>
+  <li>1 litro de leite integral quente</li>
+  <li>200 ml a 400 ml de leite de coco</li>
+  <li>1 lata de leite condensado</li>
+  <li>1/2 a 1 xícara de coco ralado</li>
+  <li>1/2 xícara de leite em pó (opcional)</li>
+  <li>Açúcar a gosto</li>
+</ul>
+
+<h3>Ingredientes do Bolo Assado</h3>
+<ul>
+  <li>1 e 1/2 xícara (chá) de tapioca granulada</li>
+  <li>1 e 1/2 xícara (chá) de leite quente</li>
+  <li>2 xícaras (chá) de farinha de trigo</li>
+  <li>1 xícara (chá) de açúcar</li>
+  <li>4 ovos</li>
+  <li>200 ml de leite de coco</li>
+  <li>100 g de coco ralado</li>
+  <li>1 colher (sopa) de fermento em pó</li>
+</ul>
+
+<h3>Modo de Preparo do Bolo Sem Forno</h3>
+<ol>
+  <li>Coloque a tapioca granulada em uma tigela grande.</li>
+
+  <li>Adicione o leite quente e misture bem.</li>
+
+  <li>Deixe descansar por 20 a 30 minutos até a tapioca absorver o líquido.</li>
+
+  <li>Acrescente o leite de coco, o leite condensado, o coco ralado e o leite em pó.</li>
+
+  <li>Misture até formar um creme homogêneo.</li>
+
+  <li>Despeje em uma forma untada ou levemente molhada.</li>
+
+  <li>Leve à geladeira por no mínimo 4 horas até firmar.</li>
+
+  <li>Finalize com leite condensado e coco ralado por cima.</li>
+</ol>
+
+<h3>Modo de Preparo do Bolo Assado</h3>
+<ol>
+  <li>Misture a tapioca granulada com o leite quente e deixe hidratar por alguns minutos.</li>
+
+  <li>Em uma tigela, bata os ovos com o açúcar.</li>
+
+  <li>Adicione o leite de coco, o coco ralado e a tapioca hidratada.</li>
+
+  <li>Acrescente a farinha de trigo aos poucos e misture bem.</li>
+
+  <li>Por último, adicione o fermento em pó.</li>
+
+  <li>Despeje a massa em uma forma untada e enfarinhada.</li>
+
+  <li>Leve ao forno preaquecido a 180°C por cerca de 35 a 40 minutos.</li>
+
+  <li>Espere esfriar e sirva.</li>
+</ol>
+
+`
+},
+
+{
+nome:"Bolo de Aipim",
+categoria:"bolos",
+imagem:"https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=1200&auto=format&fit=crop",
+descricao:"Bolo nordestino tradicional.",
+receita:`
+<h2>Bolo de Aipim 🌴</h2>
+
+<p>
+Misture aipim ralado, coco e leite condensado.
+</p>
+`
+},
+
+{
+nome:"Bolo de Maçã",
+categoria:"bolos",
+imagem:"https://images.unsplash.com/photo-1565958011703-44f9829ba187?q=80&w=1200&auto=format&fit=crop",
+descricao:"Maçã com canela.",
+receita:`
+<h2>Bolo de Maçã 🍎</h2>
+
+<p>
+Misture maçã picada e canela na massa.
+</p>
+`
+},
+
+/* =========================
+   SOBREMESAS
+========================= */
+
+{
+nome:"Pudim",
+categoria:"sobremesas",
+imagem:"https://images.unsplash.com/photo-1488477181946-6428a0291777?q=80&w=1200&auto=format&fit=crop",
+descricao:"Pudim cremoso.",
+receita:`
+<h2>Pudim 🍮</h2>
+
+<p>
+Misture leite condensado, leite e ovos.
+Asse em banho maria.
+</p>
+`
+},
+
+{
+nome:"Mousse",
+categoria:"sobremesas",
+imagem:"https://images.unsplash.com/photo-1488477181946-6428a0291777?q=80&w=1200&auto=format&fit=crop",
+descricao:"Mousse cremosa.",
+receita:`
+<h2>Mousse 🍨</h2>
+
+<p>
+Misture creme de leite, leite condensado e fruta.
+</p>
+`
+},
+
+{
+nome:"Brigadeiro",
+categoria:"sobremesas",
+imagem:"https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?q=80&w=1200&auto=format&fit=crop",
+descricao:"Doce brasileiro.",
+receita:`
+<h2>Brigadeiro 🍫</h2>
+
+<p>
+Misture leite condensado, chocolate e manteiga.
+</p>
+`
+},
+
+{
+nome:"Pavê",
+categoria:"sobremesas",
+imagem:"https://p2.trrsf.com/image/fget/cf/1200/628/middle/images.terra.com/2020/10/28/receitas-de-pave.jpg",
+descricao:"Sobremesa em camadas.",
+receita:`
+<h2>Pavê 🍰</h2>
+
+<p>
+Monte camadas de creme e bolacha.
+</p>
+`
+},
+
+{
+nome:"Cheesecake",
+categoria:"sobremesas",
+imagem:"https://images.unsplash.com/photo-1533134242443-d4fd215305ad?q=80&w=1200&auto=format&fit=crop",
+descricao:"Sobremesa cremosa.",
+receita:`
+<h2>Cheesecake 🍰</h2>
+
+<p>
+Base crocante com recheio cremoso.
+</p>
+`
+},
+
+{
+nome:"Sorvete",
+categoria:"sobremesas",
+imagem:"https://images.unsplash.com/photo-1563805042-7684c019e1cb?q=80&w=1200&auto=format&fit=crop",
+descricao:"Gelado delicioso.",
+receita:`
+<h2>Sorvete 🍦</h2>
+
+<p>
+Misture leite, creme e saborizante.
+Leve ao freezer.
+</p>
+`
+},
+
+{
+nome:"Brownie",
+categoria:"sobremesas",
+imagem:"https://images.unsplash.com/photo-1606312619070-d48b4c652a52?q=80&w=1200&auto=format&fit=crop",
+descricao:"Chocolate intenso.",
+receita:`
+<h2>Brownie 🍫</h2>
+
+<p>
+Misture chocolate, manteiga e farinha.
+</p>
+`
+},
+
+{
+nome:"Torta Holandesa",
+categoria:"sobremesas",
+imagem:"https://images.unsplash.com/photo-1551024506-0bccd828d307?q=80&w=1200&auto=format&fit=crop",
+descricao:"Muito cremosa.",
+receita:`
+<h2>Torta Holandesa 🍰</h2>
+
+<p>
+Monte base de bolacha e recheio cremoso.
+</p>
+`
+},
+
+{
+nome:"Tiramisu",
+categoria:"sobremesas",
+imagem:"https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?q=80&w=1200&auto=format&fit=crop",
+descricao:"Sobremesa italiana.",
+receita:`
+<h2>Tiramisu ☕</h2>
+
+<p>
+Monte camadas de café e creme.
+</p>
+`
+},
+
+{
+nome:"Petit Gateau",
+categoria:"sobremesas",
+imagem:"https://olhaquereceita.com.br/wp-content/uploads/2021/07/petit-gateau-com-avela-2.jpg",
+descricao:"Chocolate derretendo.",
+receita:`
+<h2>Petit Gateau 🍫</h2>
+
+<p>
+Asse rapidamente para manter recheio cremoso.
+</p>
+`
+},
+
+{
+nome:"Banoffee",
+categoria:"sobremesas",
+imagem:"https://cravinghomecooked.com/wp-content/uploads/2024/02/banoffee-pie-1-17-768x614.jpg",
+descricao:"Banana com doce de leite.",
+receita:`
+<h2>Banoffee 🍌</h2>
+
+<p>
+Monte banana, doce de leite e chantilly.
+</p>
+`
+},
+
+{
+nome:"Gelatina",
+categoria:"sobremesas",
+imagem:"https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=1200&auto=format&fit=crop",
+descricao:"Refrescante.",
+receita:`
+<h2>Gelatina 🍓</h2>
+
+<p>
+Misture pó com água quente e fria.
+</p>
+`
+},
+
+{
+nome:"Cocada",
+categoria:"sobremesas",
+imagem:"https://images.unsplash.com/photo-1519869325930-281384150729?q=80&w=1200&auto=format&fit=crop",
+descricao:"Doce de coco.",
+receita:`
+<h2>Cocada 🥥</h2>
+
+<p>
+Misture coco e açúcar até engrossar.
+</p>
+`
+},
+
+{
+nome:"Quindim",
+categoria:"sobremesas",
+imagem:"https://i.ytimg.com/vi/91HbqE7RVUI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBHISsA6V66Tfgcl-g_-U03VAKB_g",
+descricao:"Doce amarelinho.",
+receita:`
+<h2>Quindim 🟡</h2>
+
+<p>
+Misture coco, gemas e açúcar.
+</p>
+`
+},
+
+{
+nome:"Romeu e Julieta",
+categoria:"sobremesas",
+imagem:"https://images.unsplash.com/photo-1488477181946-6428a0291777?q=80&w=1200&auto=format&fit=crop",
+descricao:"Queijo com goiabada.",
+receita:`
+<h2>Romeu e Julieta 🧀</h2>
+
+<p>
+Misture queijo e goiabada.
+</p>
+`
+},
+
+{
+nome:"Manjar",
+categoria:"sobremesas",
+imagem:"data:image/jpeg;base64,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",
+descricao:"Sobremesa tradicional.",
+receita:`
+<h2>Manjar 🥥</h2>
+
+<p>
+Misture leite de coco e amido.
+</p>
+`
+},
+
+{
+nome:"Ambrosia",
+categoria:"sobremesas",
+imagem:"https://images.unsplash.com/photo-1488477181946-6428a0291777?q=80&w=1200&auto=format&fit=crop",
+descricao:"Doce tradicional.",
+receita:`
+<h2>Ambrosia 🍮</h2>
+
+<p>
+Misture leite, ovos e açúcar lentamente.
+</p>
+`
+},
+
+{
+nome:"Arroz Doce",
+categoria:"sobremesas",
+imagem:"data:image/jpeg;base64,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",
+descricao:"Sobremesa cremosa.",
+receita:`
+<h2>Arroz Doce 🍚</h2>
+
+<p>
+Cozinhe arroz com leite condensado e canela.
+</p>
+`
+},
+
+{
+nome:"Canjica",
+categoria:"sobremesas",
+imagem:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0SDwLD3KYTVgq5WZ132k_nre0GBNZbOyAFQ&s",
+descricao:"Doce típico brasileiro.",
+receita:`
+<h2>Canjica 🌽</h2>
+
+<p>
+Cozinhe milho branco com leite condensado.
+</p>
+`
+}
+
+];
+/* GERAR CARDS */
+
+const bolosContainer = document.getElementById("bolosContainer");
+const sobremesasContainer = document.getElementById("sobremesasContainer");
+
+receitas.forEach((item,index)=>{
+
+const card = `
+
+<div class="recipe-card" data-name="${item.nome.toLowerCase()}">
+
+<img src="${item.imagem}" alt="${item.nome}">
+
+<div class="recipe-info">
+
+<h3>${item.nome}</h3>
+
+<p>
+${item.descricao}
+</p>
+
+<button onclick="showRecipe(${index})">
+Ver Receita
+</button>
+
+</div>
+
+</div>
+
+`;
+
+if(item.categoria === "bolos"){
+
+bolosContainer.innerHTML += card;
+
+}else{
+
+sobremesasContainer.innerHTML += card;
+
+}
+
+});
+
+/* MODAL */
+
+const modal = document.getElementById("recipeModal");
+const recipeContent = document.getElementById("recipeContent");
+
+function showRecipe(index){
+
+recipeContent.innerHTML = receitas[index].receita;
+
+modal.style.display = "flex";
+
+}
+
+function closeRecipe(){
+
+modal.style.display = "none";
+
+}
+
+window.onclick = function(event){
+
+if(event.target === modal){
+
+closeRecipe();
+
+}
+
+}
+
+/* BUSCA */
+
+const searchInput = document.getElementById("searchInput");
+const searchBtn = document.getElementById("searchBtn");
+
+function searchRecipe(){
+
+const value = searchInput.value.toLowerCase();
+
+const cards = document.querySelectorAll(".recipe-card");
+
+let found = false;
+
+cards.forEach(card=>{
+
+const recipeName = card.dataset.name;
+
+if(recipeName.includes(value)){
+
+card.scrollIntoView({
+behavior:"smooth",
+block:"center"
+});
+
+card.style.border="3px solid #ff6b35";
+
+found = true;
+
+setTimeout(()=>{
+
+card.style.border="none";
+
+},2000);
+
+}
+
+});
+
+if(!found && value !== ""){
+
+alert("Receita não encontrada!");
+
+}
+
+}
+
+searchBtn.addEventListener("click",searchRecipe);
+
+searchInput.addEventListener("keyup",(e)=>{
+
+if(e.key === "Enter"){
+
+searchRecipe();
+
+}
+
+});
+
+</script>
+
+</body>
+
+</html>
