@@ -13,6 +13,7 @@ body{
   background:#fff8f3;
   color:#222;
   overflow-x:hidden;
+  padding-top: 90px; /* evita o header cobrir o conteúdo */
 }
 
 /* HEADER */
@@ -171,26 +172,9 @@ nav a:hover{
   height:240px;
   object-fit:cover;
 }
-/* CONTATO */
 
-.newsletter{
-  background:#ff6b35;
-  color:#fff;
-  border-radius:25px;
-  padding:35px 20px;
-  text-align:center;
-  max-width:700px;
-  margin:auto;
-}
+/* RECIPE INFO */
 
-.newsletter h2{
-  font-size:32px;
-  margin-bottom:10px;
-}
-
-.newsletter p{
-  font-size:16px;
-}
 .recipe-info{
   padding:25px;
 }
@@ -273,7 +257,7 @@ nav a:hover{
   color:#555;
 }
 
-/* CONTATO */
+/* NEWSLETTER / CONTATO */
 
 .newsletter{
   background:#ff6b35;
@@ -317,6 +301,10 @@ footer p{
 
 @media(max-width:900px){
 
+  body{
+    padding-top: 120px; /* ajuste maior no mobile */
+  }
+
   header{
     flex-direction:column;
     gap:20px;
@@ -342,23 +330,9 @@ footer p{
   .modal-content{
     padding:25px;
   }
-
 }
 
-header{
-  width:100%;
-  padding:20px 8%;
-  background:#fff;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  position:sticky;
-  top:0;
-  z-index:1000;
-  box-shadow:0 2px 15px rgba(0,0,0,0.05);
-}
-
-/* classe que esconde o menu */
+/* HEADER ANIMAÇÃO (opcional) */
 header.hide {
   transform: translateY(-100%);
   opacity: 0;
