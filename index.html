@@ -970,7 +970,7 @@ Esse bolo fica bem úmido por dentro, então não é necessário fazer o teste d
  {
     nome: "Bolo gelado de ameixa",
     categoria: "bolos",
-    imagem: "./ameixa1..jfif",
+    imagem: "./ameixa1.jfi",
     descricao: "Bolo gelado recheado com ameixa e cobertura de chantilly.",
 
     receita: `
@@ -1527,6 +1527,23 @@ searchRecipe();
 
 }
 
+});
+
+let lastScrollTop = 0;
+const header = document.querySelector("header");
+
+window.addEventListener("scroll", function () {
+  let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (scrollTop > lastScrollTop) {
+    // rolando para baixo → esconde menu
+    header.classList.add("hide");
+  } else {
+    // rolando para cima → mostra menu
+    header.classList.remove("hide");
+  }
+
+  lastScrollTop = scrollTop;
 });
 
 </script>
