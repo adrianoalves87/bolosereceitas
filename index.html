@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Bolos e Receitas</title>
+
+<meta name="description" content="Receitas fáceis de bolos, sobremesas e comidas caseiras. Aprenda a cozinhar com passos simples.">
+<meta name="robots" content="index, follow">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./style.css">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3075990199340465"
+     crossorigin="anonymous"></script>
+
+<meta name="google-adsense-account" content="ca-pub-3075990199340465">
+
+<link rel="icon" type="image/png" sizes="512x512" href="./android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+<link rel="icon" href="./favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="./apple-touch-icon.png">
+
+
+<meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+Bolos e Receitas
+</div>
+
+<nav>
+<a href="#inicio">Início</a>
+<a href="#bolos">Bolos</a>
+<a href="#sobremesas">Sobremesas</a>
+<a href="#contato">Contato</a>
+<a href="#sobre">Sobre</a>
+</nav>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero" id="inicio">
+
+<div class="hero-text">
+
+<div class="tag">
+Receitas deliciosas e fáceis
+</div>
+
+<h1>
+As Melhores Receitas Estão Aqui 🍰
+</h1>
+
+<p>
+Receitas completas com ingredientes e modo de preparo.
+</p>
+
+<div class="search-box">
+
+<input type="text" id="searchInput" placeholder="Digite uma receita...">
+
+<button id="searchBtn">
+Buscar
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- BOLOS -->
+
+<section class="section" id="bolos">
+
+<div class="title">
+
+<h2>
+Bolos
+</h2>
+
+<p>
+Bolos fofinhos e deliciosos.
+</p>
+
+</div>
+
+<div class="recipes" id="bolosContainer"></div>
+
+</section>
+
+<!-- SOBREMESAS -->
+
+<section class="section" id="sobremesas">
+
+<div class="title">
+
+<h2>
+Sobremesas
+</h2>
+
+<p>
+Sobremesas incríveis e irresistíveis.
+</p>
+
+</div>
+
+<div class="recipes" id="sobremesasContainer"></div>
+
+</section>
+<section class="section" id="sobre">
+  <div class="newsletter">
+
+    <h2>Sobre</h2>
+
+    <p>
+      O Bolos e Receitas é um site criado para compartilhar receitas simples, práticas e deliciosas para o dia a dia.
+      Nosso objetivo é ajudar pessoas que gostam de cozinhar em casa, trazendo receitas de bolos, sobremesas e pratos fáceis.
+    </p>
+
+  </div>
+</section>
+<!-- CONTATO -->
+
+
+<section class="section" id="contato">
+
+<div class="newsletter">
+
+<h2>
+Contato
+</h2>
+
+<p>
+bolosereceitas2026@outlook.com
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>
+Bolos e Receitas
+</h2>
+
+<p>
+Receitas caseiras fáceis e deliciosas.
+</p>
+
+<a href="politica.html">Política de Privacidade</a>
+
+<a href="termos.html">Termos de Uso</a>
+
+</footer>
+
+<!-- COPYRIGHT -->
+
+<div class="copyright">
+© 2026 Bolos e Receitas  - Todos os direitos reservados.
+</div>
+
+<!-- MODAL -->
+
+<div class="recipe-modal" id="recipeModal">
+
+<div class="modal-content">
+
+<span class="close" onclick="closeRecipe()">
+×
+</span>
+
+<div id="recipeContent"></div>
+
+</div>
+
+</div>
+
+<script>
+
+let receitas = [];
+
+const bolosContainer = document.getElementById("bolosContainer");
+const sobremesasContainer = document.getElementById("sobremesasContainer");
+
+const modal = document.getElementById("recipeModal");
+const recipeContent = document.getElementById("recipeContent");
+
+const searchInput = document.getElementById("searchInput");
+const searchBtn = document.getElementById("searchBtn");
+
+/* =========================
+   MENU SCROLL (CORRIGIDO)
+========================= */
+
+let lastScrollTop = 0;
+
+window.addEventListener("scroll", () => {
+
+  const header = document.querySelector("header");
+  if (!header) return;
+
+  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (scrollTop > lastScrollTop && scrollTop > 80) {
+    header.classList.add("hide"); // desce → esconde
+  } else {
+    header.classList.remove("hide"); // sobe → mostra
+  }
+
+  lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+
+});
+
+/* =========================
+   FETCH JSON
+========================= */
+
+fetch("./data/receitas.json")
+  .then(res => res.json())
+  .then(data => {
+    receitas = data;
+    render();
+  });
+
+/* =========================
+   RENDER RECEITAS
+========================= */
+
+function render() {
+
+  bolosContainer.innerHTML = "";
+  sobremesasContainer.innerHTML = "";
+
+  receitas.forEach((item, index) => {
+
+    const card = `
+      <div class="recipe-card" data-name="${item.nome.toLowerCase()}">
+
+        <img src="${item.imagem}" alt="${item.nome}">
+
+        <div class="recipe-info">
+
+          <h3>${item.nome}</h3>
+
+          <p>${item.descricao}</p>
+
+          <button onclick="showRecipe(${index})">
+            Ver Receita
+          </button>
+
+        </div>
+
+      </div>
+    `;
+
+    if (item.categoria === "bolos") {
+      bolosContainer.innerHTML += card;
+    } else {
+      sobremesasContainer.innerHTML += card;
+    }
+
+  });
+}
+
+/* =========================
+   MODAL
+========================= */
+
+function showRecipe(index) {
+  recipeContent.innerHTML = receitas[index].receita;
+  modal.style.display = "flex";
+}
+
+function closeRecipe() {
+  modal.style.display = "none";
+}
+
+window.addEventListener("click", (event) => {
+  if (event.target === modal) {
+    closeRecipe();
+  }
+});
+
+/* =========================
+   BUSCA
+========================= */
+
+function searchRecipe() {
+  const value = searchInput.value.toLowerCase();
+
+  const cards = document.querySelectorAll(".recipe-card");
+
+  let found = false;
+
+  cards.forEach(card => {
+    const recipeName = card.dataset.name;
+
+    if (recipeName.includes(value)) {
+      card.scrollIntoView({
+        behavior: "smooth",
+        block: "center"
+      });
+
+      card.style.border = "3px solid #ff6b35";
+
+      found = true;
+
+      setTimeout(() => {
+        card.style.border = "none";
+      }, 2000);
+    }
+  });
+
+  if (!found && value !== "") {
+    alert("Receita não encontrada!");
+  }
+}
+
+searchBtn.addEventListener("click", searchRecipe);
+
+searchInput.addEventListener("keyup", (e) => {
+  if (e.key === "Enter") {
+    searchRecipe();
+  }
+});
+
+</script>
+
+</body>
+
+</html>
