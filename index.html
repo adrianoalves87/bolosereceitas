@@ -229,7 +229,7 @@ window.addEventListener("scroll", () => {
    FETCH JSON
 ========================= */
 
-fetch("./data/receitas.json")
+fetch("./receitas.json")
   .then(res => res.json())
   .then(data => {
     receitas = data;
