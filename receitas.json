@@ -1,0 +1,281 @@
+[
+  {
+    "id": "bolo-de-cenoura",
+    "nome": "Bolo de Cenoura",
+    "categoria": "bolos",
+    "imagem": "./cenoura.jpg",
+    "descricao": "Bolo fofinho com cobertura de chocolate.",
+    "receita": "<h2>Bolo de Cenoura 🥕</h2><h3>Ingredientes</h3><ul><li>3 cenouras</li><li>3 ovos</li><li>1 xícara de óleo</li><li>2 xícaras de açúcar</li><li>2 xícaras de farinha</li><li>1 colher de fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Bata cenoura, ovos e óleo</li><li>Misture farinha e açúcar</li><li>Adicione fermento</li><li>Asse por 40 minutos</li></ol>"
+  },
+
+  {
+    "id": "bolo-vulcao",
+    "nome": "Bolo Vulcão",
+    "categoria": "bolos",
+    "imagem": "./vulcao.png",
+    "descricao": "Muito chocolate e cobertura cremosa.",
+    "receita": "<h2>Bolo Vulcão 🍫</h2><h3>Ingredientes da Massa</h3><ul><li>3 ovos</li><li>1 xícara de açúcar</li><li>1 xícara de chocolate em pó 50% cacau</li><li>2 xícaras de farinha de trigo</li><li>1 xícara de óleo</li><li>1 xícara de leite ou água quente</li><li>1 colher de fermento</li></ul><h3>Ingredientes da Cobertura</h3><ul><li>1 lata de leite condensado</li><li>1 caixinha de creme de leite</li><li>3 colheres de chocolate em pó</li><li>1 colher de manteiga</li></ul><h3>Modo de Preparo</h3><ol><li>Misture ingredientes da massa</li><li>Asse por 35 a 40 minutos</li><li>Faça a cobertura na panela</li><li>Despeje no centro do bolo</li></ol>"
+  },
+
+  {
+    "id": "bolo-de-chocolate",
+    "nome": "Bolo de Chocolate",
+    "categoria": "bolos",
+    "imagem": "./chocolate.jpg",
+    "descricao": "Chocolate intenso delicioso.",
+    "receita": "<h2>Bolo de Chocolate 🍫</h2><h3>Ingredientes</h3><ul><li>3 ovos</li><li>1 xícara de açúcar</li><li>1 xícara de chocolate em pó</li><li>2 xícaras de farinha</li><li>1 xícara de óleo</li><li>1 xícara de leite</li><li>1 colher de fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Misture tudo</li><li>Asse por 40 minutos</li><li>Prepare a cobertura</li><li>Cubra o bolo</li></ol>"
+  },
+
+  {
+    "id": "bolo-prestigio",
+    "nome": "Bolo Prestígio",
+    "categoria": "bolos",
+    "imagem": "./prestigio.jpg",
+    "descricao": "Bolo de chocolate com recheio de coco.",
+    "receita": "<h2>Bolo Prestígio 🥥🍫</h2><h3>Ingredientes</h3><ul><li>3 ovos</li><li>1/2 xícara de óleo</li><li>1 xícara de leite</li><li>1 xícara de açúcar</li><li>1 xícara de chocolate</li><li>2 xícaras de farinha</li><li>1 colher de fermento</li><li>100g coco ralado</li></ul><h3>Recheio</h3><ul><li>Leite condensado</li><li>Margarina</li><li>Coco ralado</li></ul><h3>Modo de Preparo</h3><ol><li>Prepare massa</li><li>Asse</li><li>Faça recheio</li><li>Monte o bolo</li></ol>"
+  },
+
+  {
+    "id": "bolo-red-velvet",
+    "nome": "Bolo Red Velvet",
+    "categoria": "bolos",
+    "imagem": "./vald.jpg",
+    "descricao": "Bolo vermelho famoso muito fácil de fazer.",
+    "receita": "<h2>Bolo Red Velvet ❤️</h2><h3>Ingredientes</h3><ul><li>Leite</li><li>Limão</li><li>Manteiga</li><li>Açúcar</li><li>Ovos</li><li>Farinha</li><li>Corante vermelho</li></ul><h3>Cobertura</h3><ul><li>Cream cheese</li><li>Manteiga</li><li>Açúcar de confeiteiro</li></ul><h3>Modo de Preparo</h3><ol><li>Misture ingredientes</li><li>Asse</li><li>Faça cobertura</li><li>Monte camadas</li></ol>"
+  },
+
+  {
+    "id": "bolo-de-fuba",
+    "nome": "Bolo de Fubá",
+    "categoria": "bolos",
+    "imagem": "./fuba.jfif",
+    "descricao": "Bolo de fubá caseiro tradicional, simples e fofinho.",
+    "receita": "<h2>Bolo de Fubá 🌽</h2><h3>Ingredientes</h3><ul><li>Fubá</li><li>Farinha</li><li>Leite</li><li>Ovos</li><li>Açúcar</li><li>Óleo</li><li>Fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Misture ingredientes</li><li>Asse por 40 minutos</li><li>Espere esfriar</li></ol>"
+  },
+
+
+  {
+    "id": "bolo-de-milho-verde",
+    "nome": "Bolo de Milho Verde",
+    "categoria": "bolos",
+    "imagem": "./milho.jpg",
+    "descricao": "Bolo de milho verde fofinho e caseiro feito com espiga natural.",
+    "receita": "<h2>Bolo de Milho Verde 🌽</h2><h3>Ingredientes</h3><ul><li>2 xícaras de milho verde</li><li>1 xícara de farinha de trigo</li><li>1 xícara de leite</li><li>1 e 1/2 xícara de açúcar</li><li>3 ovos</li><li>3 colheres de margarina</li><li>1 pacote de coco ralado</li><li>1 colher de fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Bata tudo no liquidificador</li><li>Adicione farinha e açúcar</li><li>Coloque fermento</li><li>Asse por 1 hora</li></ol>"
+  },
+
+  {
+    "id": "bolo-de-coco",
+    "nome": "Bolo de Coco",
+    "categoria": "bolos",
+    "imagem": "./coco.jpg",
+    "descricao": "Bolo fofinho de coco, simples e delicioso.",
+    "receita": "<h2>Bolo de Coco 🥥</h2><h3>Ingredientes</h3><ul><li>2 e 1/2 xícaras de farinha</li><li>2 xícaras de açúcar</li><li>1 pacote de coco ralado</li><li>3 colheres de margarina</li><li>200 ml de leite</li><li>4 ovos</li><li>1 colher de fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Bata claras em neve</li><li>Misture ingredientes</li><li>Adicione claras</li><li>Asse por 30 minutos</li></ol>"
+  },
+
+  {
+    "id": "bolo-formigueiro",
+    "nome": "Bolo Formigueiro",
+    "categoria": "bolos",
+    "imagem": "./formigueiro.jfif",
+    "descricao": "Bolo fofinho com chocolate granulado e coco ralado.",
+    "receita": "<h2>Bolo Formigueiro 🍫</h2><h3>Ingredientes</h3><ul><li>2 xícaras de farinha</li><li>4 gemas</li><li>4 claras</li><li>3 colheres de manteiga</li><li>2 xícaras de açúcar</li><li>1 xícara de leite</li><li>Chocolate granulado</li><li>Coco ralado</li><li>Fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Bata massa base</li><li>Adicione secos</li><li>Coloque granulado</li><li>Asse por 40 minutos</li></ol>"
+  },
+
+  {
+    "id": "bolo-de-banana",
+    "nome": "Bolo de Banana",
+    "categoria": "bolos",
+    "imagem": "./banana.jpg",
+    "descricao": "Bolo fofinho de banana com calda caramelizada.",
+    "receita": "<h2>Bolo de Banana 🍌</h2><h3>Ingredientes</h3><ul><li>3 ovos</li><li>2 xícaras de açúcar</li><li>1 xícara de leite</li><li>1/2 xícara de óleo</li><li>2 xícaras de farinha</li><li>7 bananas</li><li>Fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Faça calda</li><li>Bata massa</li><li>Monte com bananas</li><li>Asse por 30 minutos</li></ol>"
+  },
+
+  {
+    "id": "bolo-de-laranja",
+    "nome": "Bolo de Laranja",
+    "categoria": "bolos",
+    "imagem": "./laranja.jpg",
+    "descricao": "Bolo fofinho de laranja com calda cítrica.",
+    "receita": "<h2>Bolo de Laranja 🍊</h2><h3>Ingredientes</h3><ul><li>3 ovos</li><li>Suco de laranja</li><li>2 xícaras de açúcar</li><li>3 xícaras de farinha</li><li>Óleo</li><li>Fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Bata ingredientes</li><li>Misture farinha</li><li>Asse 35 min</li><li>Faça calda</li></ol>"
+  },
+
+  {
+    "id": "bolo-de-limao",
+    "nome": "Bolo de Limão",
+    "categoria": "bolos",
+    "imagem": "./blimao.jpg",
+    "descricao": "Bolo fofinho de limão com cobertura cremosa.",
+    "receita": "<h2>Bolo de Limão 🍋</h2><h3>Ingredientes</h3><ul><li>Ovos</li><li>Leite</li><li>Manteiga</li><li>Açúcar</li><li>Limão</li><li>Farinha</li><li>Fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Misture massa</li><li>Asse</li><li>Faça cobertura</li><li>Finalize</li></ol>"
+  },
+
+  {
+    "id": "bolo-de-pacoca",
+    "nome": "Bolo de Paçoca",
+    "categoria": "bolos",
+    "imagem": "./pacoca.jpg",
+    "descricao": "Muito sabor brasileiro com paçoca cremosa.",
+    "receita": "<h2>Bolo de Paçoca 🥜</h2><h3>Ingredientes</h3><ul><li>3 ovos</li><li>1 xícara de açúcar</li><li>1 xícara de leite</li><li>1/2 xícara de óleo</li><li>Paçoca</li><li>Farinha</li><li>Fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Bata tudo</li><li>Asse 40 min</li><li>Faça cobertura</li><li>Finalize com paçoca</li></ol>"
+  },
+
+  {
+  "id": "bolo-leite-ninho-recheado",
+  "nome": "Bolo de Leite Ninho Recheado",
+  "categoria": "bolos",
+  "imagem": "./leite.jpg",
+  "descricao": "Bolo fofinho de leite Ninho com recheio e cobertura cremosa.",
+  "receita": "<h2>Bolo de Leite Ninho 🥛</h2><h3>Ingredientes</h3><ul><li>4 ovos (claras e gemas separadas)</li><li>3 colheres de manteiga</li><li>2 xícaras de açúcar</li><li>2 xícaras de farinha de trigo</li><li>1 xícara de leite em pó Ninho</li><li>1 e 1/2 xícara de água quente</li><li>1 colher de fermento em pó</li><li>Raspas de chocolate branco</li></ul><h3>Recheio e Cobertura</h3><ul><li>1 lata de leite condensado</li><li>1 xícara de margarina</li><li>1 xícara de leite em pó Ninho</li><li>1 caixa de creme de leite</li></ul><h3>Modo de Preparo</h3><ol><li>Bata claras em neve e reserve</li><li>Bata gemas, manteiga e açúcar</li><li>Adicione farinha, leite em pó e água quente</li><li>Misture claras e fermento</li><li>Asse por 30 minutos a 180°C</li><li>Faça o creme do recheio na batedeira</li><li>Corte o bolo e recheie</li><li>Cubra com o restante do creme</li><li>Finalize com raspas de chocolate branco</li></ol>"
+},
+
+  {
+    "id": "bolo-piscina-de-fuba",
+    "nome": "Bolo Piscina de Fubá",
+    "categoria": "bolos",
+    "imagem": "./bpiscina.jpg",
+    "descricao": "Bolo de fubá cremoso com goiabada.",
+    "receita": "<h2>Bolo Piscina de Fubá 🍰</h2><h3>Ingredientes</h3><ul><li>Ovos</li><li>Leite</li><li>Iogurte</li><li>Açúcar</li><li>Fubá</li><li>Farinha</li><li>Amido de milho</li><li>Fermento</li><li>Queijo ralado</li></ul><h3>Modo de Preparo</h3><ol><li>Bata líquidos</li><li>Adicione secos</li><li>Asse 60 minutos</li><li>Cubra com goiabada</li></ol>"
+  },
+
+  {
+    "id": "bolo-gelado-de-ameixa",
+    "nome": "Bolo Gelado de Ameixa",
+    "categoria": "bolos",
+    "imagem": "./ameixa.jpg",
+    "descricao": "Bolo gelado recheado com ameixa e chantilly.",
+    "receita": "<h2>Bolo Gelado de Ameixa 🍰</h2><h3>Ingredientes</h3><ul><li>Ovos</li><li>Óleo</li><li>Leite</li><li>Açúcar</li><li>Farinha</li><li>Fermento</li><li>Chantilly</li><li>Ameixa</li></ul><h3>Modo de Preparo</h3><ol><li>Asse o bolo</li><li>Recheie com doce de leite</li><li>Adicione ameixa</li><li>Geladeira 2h</li></ol>"
+  },
+
+  {
+    "id": "bolo-mesclado-chocolate",
+    "nome": "Bolo Mesclado de Chocolate",
+    "categoria": "bolos",
+    "imagem": "./Bmar.jpg",
+    "descricao": "Bolo fofinho mesclado com chocolate.",
+    "receita": "<h2>Bolo Mesclado de Chocolate 🍫</h2><h3>Ingredientes</h3><ul><li>Ovos</li><li>Açúcar</li><li>Margarina</li><li>Leite</li><li>Farinha</li><li>Fermento</li><li>Chocolate em pó</li></ul><h3>Modo de Preparo</h3><ol><li>Bata massa</li><li>Divida e misture chocolate</li><li>Asse 45 minutos</li></ol>"
+  },
+
+  {
+    "id": "bolo-de-tapioca",
+    "nome": "Bolo de Tapioca",
+    "categoria": "bolos",
+    "imagem": "./tapioca.jfif",
+    "descricao": "Bolo cremoso de tapioca com coco.",
+    "receita": "<h2>Bolo de Tapioca 🥥</h2><h3>Ingredientes</h3><ul><li>Tapioca</li><li>Leite</li><li>Leite de coco</li><li>Leite condensado</li><li>Coco ralado</li><li>Farinha</li><li>Fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Hidrate tapioca</li><li>Misture ingredientes</li><li>Asse ou gele</li><li>Finalize com coco</li></ol>"
+  },
+
+  {
+    "id": "bolo-de-aipim",
+    "nome": "Bolo de Aipim Mandioca",
+    "categoria": "bolos",
+    "imagem": "./baipin.jfif",
+    "descricao": "Bolo de aipim cremoso e tradicional.",
+    "receita": "<h2>Bolo de Aipim 🍰</h2><h3>Ingredientes</h3><ul><li>Aipim</li><li>Leite</li><li>Açúcar</li><li>Ovos</li><li>Manteiga</li><li>Coco ralado</li></ul><h3>Modo de Preparo</h3><ol><li>Misture tudo</li><li>Asse 35 minutos</li><li>Sirva morno</li></ol>"
+  },
+
+ {
+  "id": "bolo-de-maca-caramelo",
+  "nome": "Bolo de Maçã com Caramelo",
+  "categoria": "bolos",
+  "imagem": "./bmarcn.jpg",
+  "descricao": "Bolo fofinho de maçã com canela e cobertura de caramelo.",
+  "receita": "<h2>Bolo de Maçã com Caramelo 🍎</h2><h3>Ingredientes</h3><ul><li>2 maçãs</li><li>3 ovos</li><li>1/2 xícara de açúcar</li><li>120 ml de leite morno</li><li>1/2 colher de canela</li><li>3 colheres de óleo</li><li>3/4 xícara de farinha de trigo</li><li>1 colher de fermento</li></ul><h3>Para polvilhar</h3><ul><li>1 colher de açúcar</li><li>1 colher de canela</li></ul><h3>Cobertura de Caramelo</h3><ul><li>1/3 xícara de açúcar</li><li>120 ml de creme de leite fresco</li></ul><h3>Modo de Preparo</h3><ol><li>Fatie as maçãs</li><li>Bata ovos e açúcar</li><li>Adicione leite, óleo e canela</li><li>Misture farinha e fermento</li><li>Adicione maçãs</li><li>Asse 30 minutos a 180°C</li><li>Derreta açúcar e faça o caramelo</li><li>Misture creme de leite</li><li>Desenforme e cubra com caramelo</li></ol>"
+},
+
+  {
+    "id": "pudim-de-leite-condensado",
+    "nome": "Pudim de Leite Condensado",
+    "categoria": "sobremesas",
+    "imagem": "./pudim.jfif",
+    "descricao": "Pudim de leite condensado com calda de caramelo, cremoso.",
+    "receita": "<h2>🍮 Pudim de Leite Condensado</h2><h3>Ingredientes</h3><h4>Pudim</h4><ul><li>Leite condensado</li><li>Leite</li><li>Ovos</li></ul><h4>Calda</h4><ul><li>Açúcar</li><li>Água</li></ul><h3>Modo de Preparo</h3><ol><li>Bata os ingredientes</li><li>Faça a calda</li><li>Asse em banho-maria</li><li>Desenforme</li></ol>"
+  },
+
+  {
+    "id": "mousse-maracuja-chocolate-branco",
+    "nome": "Mousse de Maracujá com Chocolate Branco e Doce de Leite",
+    "categoria": "sobremesas",
+    "imagem": "./mousse.jfif",
+    "descricao": "Mousse de maracujá com camadas de pão de ló, doce de leite e chocolate branco.",
+    "receita": "<h2>🍰 Mousse de Maracujá</h2><h3>Pão de ló</h3><h3>Mousse</h3><h3>Calda</h3><h3>Montagem</h3><p>Camadas de mousse, pão de ló, doce de leite e chocolate branco.</p>"
+  },
+
+  {
+    "id": "brigadeiro-tradicional",
+    "nome": "Brigadeiro Tradicional",
+    "categoria": "doces",
+    "imagem": "./brigadeiro.jfif",
+    "descricao": "Brigadeiro cremoso e clássico brasileiro.",
+    "receita": "<h2>🍫 Brigadeiro Tradicional</h2><h3>Ingredientes</h3><ul><li>Leite condensado</li><li>Margarina</li><li>Chocolate em pó</li><li>Granulado</li></ul><h3>Modo de Preparo</h3><ol><li>Cozinhe até desgrudar da panela</li><li>Deixe esfriar</li><li>Enrole e passe no granulado</li></ol>"
+  },
+
+  
+ {
+  "id": "brownie-de-chocolate",
+  "nome": "Brownie de Chocolate",
+  "categoria": "sobremesas",
+  "imagem": "./brownie.jpg",
+  "descricao": "Brownie de chocolate intenso, macio por dentro e levemente crocante por fora.",
+  "receita": "<h2>Brownie de Chocolate 🍫</h2><h3>Ingredientes</h3><ul><li>6 colheres de margarina sem sal</li><li>3/4 xícara de achocolatado</li><li>1/2 xícara de chocolate em pó</li><li>1 e 1/4 xícara de farinha de trigo</li><li>2 xícaras de açúcar</li><li>4 ovos</li><li>2 pitadas de sal</li><li>1 colher de extrato de baunilha</li><li>1 tablete de chocolate meio-amargo picado</li><li>1/2 xícara de nozes ou castanhas</li></ul><h3>Modo de Preparo</h3><ol><li>Misture ovos e açúcar</li><li>Adicione os demais ingredientes</li><li>Misture delicadamente</li><li>Despeje em forma forrada</li><li>Asse por 40 minutos a 180°C</li><li>Corte ainda quente</li><li>Sirva com sorvete se quiser</li></ol><h3>Dica</h3><ul><li>Não retire cedo demais do forno</li><li>Use forma de metal para melhor resultado</li><li>Adicione castanhas para mais sabor</li></ul>"
+},
+
+
+{
+  "id": "biscoito-champanhe",
+  "nome": "Sobremesa de Biscoito Champanhe",
+  "categoria": "sobremesas",
+  "imagem": "./biscoito.jpg",
+  "descricao": "Sobremesa cremosa em camadas com creme, biscoito champanhe e cobertura de suspiro.",
+  "receita": "<h2>Sobremesa de Biscoito Champanhe 🍰</h2><h3>Ingredientes</h3><h4>Creme</h4><ul><li>1 lata de leite condensado</li><li>1 lata de leite</li><li>4 gemas</li><li>1 colher de essência de baunilha</li></ul><h4>Cobertura</h4><ul><li>4 claras em neve</li><li>4 colheres de açúcar</li><li>1 lata de creme de leite sem soro</li></ul><h4>Base</h4><ul><li>1 pacote de biscoito champanhe</li><li>1 xícara de leite</li><li>2 colheres de achocolatado</li></ul><h3>Modo de Preparo</h3><ol><li>Cozinhe leite condensado, leite e gemas até engrossar</li><li>Adicione baunilha e reserve</li><li>Bata claras com açúcar até virar suspiro</li><li>Misture creme de leite</li><li>Monte camadas com creme e biscoito</li><li>Finalize com suspiro</li><li>Leve à geladeira por 3 horas</li></ol>"
+},
+
+
+
+{
+  "id": "pave-cremoso-camadas",
+  "nome": "Pavê Cremoso em Camadas",
+  "categoria": "sobremesas",
+  "imagem": "./pave.jpg",
+  "descricao": "Pavê cremoso em camadas com creme, biscoito champanhe e cobertura de chocolate.",
+  "receita": "<h2>Pavê Cremoso 🍰</h2><h3>Ingredientes</h3><h4>Creme</h4><ul><li>1 lata de leite condensado</li><li>1 lata de leite</li><li>4 gemas</li><li>1 colher de essência de baunilha</li></ul><h4>Base</h4><ul><li>1 pacote de biscoito champanhe</li><li>1 xícara de leite</li><li>2 colheres de achocolatado</li></ul><h4>Cobertura</h4><ul><li>4 claras em neve</li><li>4 colheres de açúcar</li><li>1 lata de creme de leite sem soro</li><li>2 colheres de achocolatado em pó</li></ul><h3>Modo de Preparo</h3><ol><li>Leve ao fogo leite condensado, leite e gemas até engrossar</li><li>Adicione baunilha e reserve</li><li>Bata claras com açúcar até virar suspiro</li><li>Misture creme de leite</li><li>Molhe os biscoitos no leite com achocolatado</li><li>Monte camadas: creme, biscoito, cobertura</li><li>Finalize com achocolatado polvilhado</li><li>Leve à geladeira por 3 horas</li></ol>"
+},
+
+
+
+{
+  "id": "sorvete-trufado",
+  "nome": "Sorvete Trufado",
+  "categoria": "sobremesas",
+  "imagem": "./trufado.jpg",
+  "descricao": "Sobremesa gelada trufada com sorvete, brigadeiro e cobertura de chocolate ao leite.",
+  "receita": "<h2>Sorvete Trufado 🍨🍫</h2><h3>Ingredientes (10 porções)</h3><ul><li>1 pote de sorvete de creme</li><li>1 lata de leite condensado</li><li>1/2 xícara de chocolate em pó</li><li>2 colheres de sopa de margarina</li><li>1 lata de creme de leite sem soro</li><li>250 g de chocolate meio amargo derretido</li><li>1 colher de sopa de glucose de milho</li><li>200 g de chocolate ao leite</li></ul><h3>Modo de Preparo</h3><ol><li>Faça um brigadeiro com leite condensado, chocolate em pó e 1 colher de sopa de margarina</li><li>Reserve</li><li>Derreta o chocolate meio amargo no micro-ondas</li><li>Adicione margarina e glucose</li><li>Aqueça mais 10 segundos no micro-ondas</li><li>Acrescente o creme de leite</li><li>Misture essa trufa ao brigadeiro e deixe esfriar</li><li>Em uma forma de pudim forrada com plástico filme, faça camadas de sorvete e creme de chocolate</li><li>Leve ao refrigerador até firmar</li><li>Desenforme na hora de servir</li><li>Derreta o chocolate ao leite</li><li>Cubra o sorvete já desenformado com o chocolate derretido</li></ol>"
+},
+
+{
+  "id": "cheesecake",
+  "nome": "Cheesecake",
+  "categoria": "sobremesas",
+  "imagem": "./chees.jpg",
+  "descricao": "Cheesecake cremosa com base de biscoito e recheio suave de ricota e requeijão.",
+  "receita": "<h2>Cheesecake 🍰</h2><h3>Ingredientes</h3><h4>Massa</h4><ul><li>200 g de biscoito tipo maisena ou similar</li><li>100 g de manteiga</li></ul><h4>Recheio</h4><ul><li>4 ovos</li><li>250 g de ricota</li><li>1 copo de requeijão cremoso</li><li>1 xícara de açúcar</li><li>1 colher (chá) de essência de baunilha</li><li>Raspas de limão (opcional)</li></ul><h3>Modo de Preparo</h3><ol><li>Triture os biscoitos até virar farinha</li><li>Derreta a manteiga e misture com os biscoitos até formar uma massa</li><li>Forre o fundo de uma forma de aro removível</li><li>No liquidificador, bata ovos, ricota, requeijão, açúcar, baunilha e limão</li><li>Despeje sobre a base</li><li>Asse a 150°C por cerca de 40 minutos</li><li>Deixe esfriar completamente</li><li>Leve à geladeira por 4 horas</li><li>Sirva gelado</li></ol>"
+}
+
+
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
