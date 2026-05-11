@@ -51,4 +51,11 @@
   <url><loc>https://bolosereceitas.com/arroz-doce</loc></url>
   <url><loc>https://bolosereceitas.com/canjica</loc></url>
 
+  <!-- NOVA RECEITA -->
+  <url>
+    <loc>https://bolosereceitas.com/mousse-de-maracuja</loc>
+    <lastmod>2026-05-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
