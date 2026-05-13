@@ -11,6 +11,8 @@
     "porcoes": 10,
     "receita": "<h2>Bolo de Cenoura 🥕</h2><h3>Ingredientes</h3><ul><li>3 cenouras</li><li>3 ovos</li><li>1 xícara de óleo</li><li>2 xícaras de açúcar</li><li>2 xícaras de farinha</li><li>1 colher de fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Bata cenoura, ovos e óleo</li><li>Misture farinha e açúcar</li><li>Adicione fermento</li><li>Asse por 40 minutos</li></ol>"
   },
+ 
+ 
   {
     "id": "bolo-vulcao",
     "slug": "bolo-vulcao",
@@ -23,6 +25,9 @@
     "porcoes": 12,
     "receita": "<h2>Bolo Vulcão 🍫</h2><h3>Ingredientes da Massa</h3><ul><li>3 ovos</li><li>1 xícara de açúcar</li><li>1 xícara de chocolate em pó 50% cacau</li><li>2 xícaras de farinha de trigo</li><li>1 xícara de óleo</li><li>1 xícara de leite ou água quente</li><li>1 colher de fermento</li></ul><h3>Ingredientes da Cobertura</h3><ul><li>1 lata de leite condensado</li><li>1 caixinha de creme de leite</li><li>3 colheres de chocolate em pó</li><li>1 colher de manteiga</li></ul><h3>Modo de Preparo</h3><ol><li>Misture ingredientes da massa</li><li>Asse por 35 a 40 minutos</li><li>Faça a cobertura na panela</li><li>Despeje no centro do bolo</li></ol>"
   },
+  
+  
+  
   {
     "id": "bolo-de-chocolate",
     "slug": "bolo-de-chocolate",
@@ -35,6 +40,10 @@
     "porcoes": 10,
     "receita": "<h2>Bolo de Chocolate 🍫</h2><h3>Ingredientes</h3><ul><li>3 ovos</li><li>1 xícara de açúcar</li><li>1 xícara de chocolate em pó</li><li>2 xícaras de farinha</li><li>1 xícara de óleo</li><li>1 xícara de leite</li><li>1 colher de fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Misture tudo</li><li>Asse por 40 minutos</li><li>Prepare a cobertura</li><li>Cubra o bolo</li></ol>"
   },
+  
+  
+  
+  
   {
     "id": "bolo-prestigio",
     "slug": "bolo-prestigio",
@@ -47,6 +56,9 @@
     "porcoes": 12,
     "receita": "<h2>Bolo Prestígio 🥥🍫</h2><h3>Ingredientes</h3><ul><li>3 ovos</li><li>1/2 xícara de óleo</li><li>1 xícara de leite</li><li>1 xícara de açúcar</li><li>1 xícara de chocolate</li><li>2 xícaras de farinha</li><li>1 colher de fermento</li><li>100g coco ralado</li></ul><h3>Recheio</h3><ul><li>Leite condensado</li><li>Margarina</li><li>Coco ralado</li></ul><h3>Modo de Preparo</h3><ol><li>Prepare massa</li><li>Asse</li><li>Faça recheio</li><li>Monte o bolo</li></ol>"
   },
+ 
+ 
+ 
   {
     "id": "bolo-red-velvet",
     "slug": "bolo-red-velvet",
@@ -62,7 +74,6 @@
 
 
 
- [
   {
     "id": "bolo-de-fuba",
     "slug": "bolo-de-fuba",
@@ -75,6 +86,9 @@
     "porcoes": 10,
     "receita": "<h2>Bolo de Fubá 🌽</h2><h3>Ingredientes</h3><ul><li>Fubá</li><li>Farinha</li><li>Leite</li><li>Ovos</li><li>Açúcar</li><li>Óleo</li><li>Fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Misture tudo</li><li>Asse por 40 minutos</li><li>Espere esfriar</li></ol>"
   },
+ 
+ 
+ 
   {
     "id": "bolo-de-milho-verde",
     "slug": "bolo-de-milho-verde",
@@ -87,6 +101,8 @@
     "porcoes": 12,
     "receita": "<h2>Bolo de Milho Verde 🌽</h2><h3>Ingredientes</h3><ul><li>2 xícaras de milho verde</li><li>1 xícara de farinha de trigo</li><li>1 xícara de leite</li><li>1 e 1/2 xícara de açúcar</li><li>3 ovos</li><li>3 colheres de margarina</li><li>Coco ralado</li><li>1 colher de fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Bata tudo no liquidificador</li><li>Adicione secos</li><li>Asse por 1 hora</li></ol>"
   },
+  
+  
   {
     "id": "bolo-de-coco",
     "slug": "bolo-de-coco",
@@ -99,6 +115,8 @@
     "porcoes": 10,
     "receita": "<h2>Bolo de Coco 🥥</h2><h3>Ingredientes</h3><ul><li>Farinha</li><li>Açúcar</li><li>Coco ralado</li><li>Margarina</li><li>Leite</li><li>Ovos</li><li>Fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Bata claras em neve</li><li>Misture ingredientes</li><li>Asse por 30 minutos</li></ol>"
   },
+  
+  
   {
     "id": "bolo-formigueiro",
     "slug": "bolo-formigueiro",
@@ -111,6 +129,8 @@
     "porcoes": 10,
     "receita": "<h2>Bolo Formigueiro 🍫</h2><h3>Ingredientes</h3><ul><li>Farinha</li><li>Açúcar</li><li>Ovos</li><li>Manteiga</li><li>Leite</li><li>Chocolate granulado</li><li>Coco ralado</li><li>Fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Bata massa base</li><li>Adicione secos</li><li>Coloque granulado</li><li>Asse por 40 minutos</li></ol>"
   },
+ 
+ 
   {
     "id": "bolo-de-banana",
     "slug": "bolo-de-banana",
@@ -123,6 +143,8 @@
     "porcoes": 10,
     "receita": "<h2>Bolo de Banana 🍌</h2><h3>Ingredientes</h3><ul><li>Ovos</li><li>Açúcar</li><li>Leite</li><li>Óleo</li><li>Farinha</li><li>Bananas</li><li>Fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Faça calda</li><li>Bata massa</li><li>Monte com bananas</li><li>Asse por 30 minutos</li></ol>"
   },
+ 
+ 
   {
     "id": "bolo-de-laranja",
     "slug": "bolo-de-laranja",
@@ -135,6 +157,8 @@
     "porcoes": 10,
     "receita": "<h2>Bolo de Laranja 🍊</h2><h3>Ingredientes</h3><ul><li>Ovos</li><li>Suco de laranja</li><li>Açúcar</li><li>Farinha</li><li>Óleo</li><li>Fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Bata tudo</li><li>Misture farinha</li><li>Asse 35 min</li></ol>"
   },
+  
+  
   {
     "id": "bolo-de-limao",
     "slug": "bolo-de-limao",
@@ -150,7 +174,6 @@
 
 
 
-  [
   {
     "id": "bolo-de-aipim",
     "slug": "bolo-de-aipim-mandioca",
@@ -190,6 +213,8 @@
     "receita": "<h2>Pudim 🍮</h2><h3>Modo de Preparo</h3><ol><li>Bata ingredientes</li><li>Faça calda</li><li>Asse em banho-maria</li><li>Geladeira</li></ol>"
   },
 
+ 
+ 
   {
     "id": "brigadeiro-tradicional",
     "slug": "brigadeiro-tradicional",
@@ -203,6 +228,8 @@
     "receita": "<h2>Brigadeiro 🍫</h2><h3>Modo de Preparo</h3><ol><li>Cozinhar até ponto</li><li>Esfriar</li><li>Enrolar</li></ol>"
   },
 
+ 
+ 
   {
     "id": "brownie-de-chocolate",
     "slug": "brownie-de-chocolate",
@@ -215,6 +242,8 @@
     "porcoes": 12,
     "receita": "<h2>Brownie 🍫</h2><h3>Modo de Preparo</h3><ol><li>Misturar tudo</li><li>Assar</li><li>Cortar quente</li></ol>"
   },
+
+
 
   {
     "id": "biscoito-champanhe",
@@ -229,6 +258,8 @@
     "receita": "<h2>Sobremesa 🍰</h2><h3>Modo de Preparo</h3><ol><li>Fazer creme</li><li>Montar camadas</li><li>Geladeira</li></ol>"
   },
 
+  
+  
   {
     "id": "pave-cremoso-camadas",
     "slug": "pave-cremoso-camadas",
@@ -242,6 +273,8 @@
     "receita": "<h2>Pavê 🍰</h2><h3>Modo de Preparo</h3><ol><li>Creme</li><li>Biscoito</li><li>Camadas</li><li>Geladeira</li></ol>"
   },
 
+  
+  
   {
     "id": "sorvete-trufado",
     "slug": "sorvete-trufado",
@@ -255,6 +288,8 @@
     "receita": "<h2>Sorvete 🍨</h2><h3>Modo de Preparo</h3><ol><li>Brigadeiro</li><li>Trufa</li><li>Congelar</li></ol>"
   },
 
+ 
+ 
   {
     "id": "cheesecake",
     "slug": "cheesecake",
@@ -266,108 +301,6 @@
     "dificuldade": "média",
     "porcoes": 10,
     "receita": "<h2>Cheesecake 🍰</h2><h3>Modo de Preparo</h3><ol><li>Base</li><li>Recheio</li><li>Forno</li><li>Geladeira</li></ol>"
-  },
-
-
-
-
-   
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  ]
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  }
 
 ]
