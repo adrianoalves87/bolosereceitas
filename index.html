@@ -175,19 +175,7 @@ Receitas caseiras fáceis e deliciosas.
 
 <!-- MODAL -->
 
-<div class="recipe-modal" id="recipeModal">
 
-<div class="modal-content">
-
-<span class="close" onclick="closeRecipe()">
-×
-</span>
-
-<div id="recipeContent"></div>
-
-</div>
-
-</div>
 
 <script>
 
@@ -196,14 +184,19 @@ let receitas = [];
 const bolosContainer = document.getElementById("bolosContainer");
 const sobremesasContainer = document.getElementById("sobremesasContainer");
 
-const modal = document.getElementById("recipeModal");
-const recipeContent = document.getElementById("recipeContent");
-
 const searchInput = document.getElementById("searchInput");
 const searchBtn = document.getElementById("searchBtn");
 
 /* =========================
-   MENU SCROLL (CORRIGIDO)
+   SALVAR POSIÇÃO DOS CARDS
+========================= */
+
+function salvarScroll() {
+  localStorage.setItem("scrollPos", window.scrollY);
+}
+
+/* =========================
+   MENU SCROLL
 ========================= */
 
 let lastScrollTop = 0;
@@ -216,9 +209,9 @@ window.addEventListener("scroll", () => {
   const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
   if (scrollTop > lastScrollTop && scrollTop > 80) {
-    header.classList.add("hide"); // desce → esconde
+    header.classList.add("hide");
   } else {
-    header.classList.remove("hide"); // sobe → mostra
+    header.classList.remove("hide");
   }
 
   lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
@@ -237,7 +230,7 @@ fetch("./receitas.json")
   });
 
 /* =========================
-   RENDER RECEITAS
+   RENDER
 ========================= */
 
 function render() {
@@ -245,7 +238,7 @@ function render() {
   bolosContainer.innerHTML = "";
   sobremesasContainer.innerHTML = "";
 
-  receitas.forEach((item, index) => {
+  receitas.forEach((item) => {
 
     const card = `
       <div class="recipe-card" data-name="${item.nome.toLowerCase()}">
@@ -258,9 +251,13 @@ function render() {
 
           <p>${item.descricao}</p>
 
-          <button onclick="showRecipe(${index})">
+          <a href="receita.html?id=${item.id}"
+             class="btn-receita"
+             onclick="salvarScroll()">
+
             Ver Receita
-          </button>
+
+          </a>
 
         </div>
 
@@ -277,29 +274,11 @@ function render() {
 }
 
 /* =========================
-   MODAL
-========================= */
-
-function showRecipe(index) {
-  recipeContent.innerHTML = receitas[index].receita;
-  modal.style.display = "flex";
-}
-
-function closeRecipe() {
-  modal.style.display = "none";
-}
-
-window.addEventListener("click", (event) => {
-  if (event.target === modal) {
-    closeRecipe();
-  }
-});
-
-/* =========================
    BUSCA
 ========================= */
 
 function searchRecipe() {
+
   const value = searchInput.value.toLowerCase();
 
   const cards = document.querySelectorAll(".recipe-card");
@@ -307,9 +286,11 @@ function searchRecipe() {
   let found = false;
 
   cards.forEach(card => {
+
     const recipeName = card.dataset.name;
 
     if (recipeName.includes(value)) {
+
       card.scrollIntoView({
         behavior: "smooth",
         block: "center"
@@ -322,7 +303,9 @@ function searchRecipe() {
       setTimeout(() => {
         card.style.border = "none";
       }, 2000);
+
     }
+
   });
 
   if (!found && value !== "") {
@@ -338,8 +321,29 @@ searchInput.addEventListener("keyup", (e) => {
   }
 });
 
-</script>
+/* =========================
+   RESTAURAR POSIÇÃO SEM PULO
+========================= */
 
+/* impede voltar pro topo automaticamente */
+if ('scrollRestoration' in history) {
+  history.scrollRestoration = 'manual';
+}
+
+function restaurarScroll() {
+
+  const pos = localStorage.getItem("scrollPos");
+
+  if (pos !== null) {
+    window.scrollTo(0, parseInt(pos));
+    localStorage.removeItem("scrollPos");
+  }
+}
+
+/* melhor que load (evita flash no topo) */
+window.addEventListener("pageshow", restaurarScroll);
+
+</script>
 </body>
 
 </html>
