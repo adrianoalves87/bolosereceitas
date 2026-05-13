@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Receita</title>
+
+<meta name="description" content="Receitas completas de bolos e sobremesas.">
+<meta name="robots" content="index, follow">
+
+<link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+Bolos e Receitas
+</div>
+
+<nav>
+<a href="index.html">Voltar</a>
+</nav>
+
+</header>
+
+<section class="section">
+
+<div id="receitaContainer"></div>
+
+</section>
+
+<script>
+
+fetch("./receitas.json")
+.then(res => res.json())
+.then(receitas => {
+
+  const params = new URLSearchParams(window.location.search);
+
+  const id = params.get("id");
+
+  const receita = receitas.find(r => r.id === id);
+
+  if (!receita) {
+
+    document.getElementById("receitaContainer").innerHTML = `
+      <h2>Receita não encontrada</h2>
+    `;
+
+    return;
+  }
+
+  document.title = receita.nome + " | Bolos e Receitas";
+
+  document.getElementById("receitaContainer").innerHTML = `
+
+    <div class="recipe-page">
+
+      <img src="${receita.imagem}" alt="${receita.nome}" class="recipe-image">
+
+      <h1>${receita.nome}</h1>
+
+      <p>${receita.descricao}</p>
+
+      <div class="recipe-content">
+        ${receita.receita}
+      </div>
+
+    </div>
+
+  `;
+
+});
+
+</script>
+
+</body>
+</html>
