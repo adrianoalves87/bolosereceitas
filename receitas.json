@@ -315,6 +315,36 @@
   "dificuldade": "média",
   "porcoes": 10,
   "receita": "<h2>Cheesecake 🍰</h2><h3>Ingredientes</h3><h4>Base</h4><ul><li>200g de biscoito maisena</li><li>100g de manteiga derretida</li></ul><h4>Recheio</h4><ul><li>300g de cream cheese</li><li>1 caixa de creme de leite</li><li>1 lata de leite condensado</li><li>3 ovos</li><li>1 colher de essência de baunilha</li><li>Raspas de limão (opcional)</li></ul><h4>Cobertura (opcional)</h4><ul><li>Geleia de frutas vermelhas ou morango</li><li>Ou calda de frutas de sua preferência</li></ul><h3>Modo de Preparo</h3><ol><li>Triture o biscoito maisena até virar farinha fina</li><li>Misture com a manteiga derretida até formar uma massa úmida</li><li>Forre o fundo de uma forma de aro removível e pressione bem</li><li>Leve ao forno por 10 minutos a 180°C e reserve</li><li>No liquidificador ou batedeira, bata o cream cheese, leite condensado, creme de leite, ovos e baunilha até ficar cremoso</li><li>Despeje o creme sobre a base já assada</li><li>Leve ao forno a 180°C por aproximadamente 40 minutos ou até firmar levemente no centro</li><li>Retire do forno e deixe esfriar completamente</li><li>Leve à geladeira por pelo menos 4 horas (ideal de um dia para o outro)</li><li>Finalize com cobertura de sua preferência antes de servir</li></ol>"
-}
+},
+
+
+ {
+    "id": "biscoito-polvilho",
+    "slug": "biscoito-polvilho",
+    "nome": "Biscoito de Polvilho",
+    "categoria": "biscoitos",
+    "descricao": "Biscoito caseiro crocante e simples.",
+    "tempoPreparo": "1h",
+    "dificuldade": "fácil",
+    "porcoes": 40,
+    "ingredientes": [
+      "500 g de polvilho doce",
+      "1 xícara de farinha de trigo",
+      "250 g de margarina",
+      "1 xícara de açúcar",
+      "1 colher (café) de fermento em pó",
+      "2 ovos",
+      "100 g de coco ralado (opcional)"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes.",
+      "Modele os biscoitos.",
+      "Leve ao forno médio até dourar."
+    ],
+    "observacoes": "Não precisa untar a forma. Biscoitos já têm gordura suficiente na massa."
+  }
+
+
+
 
 ]
