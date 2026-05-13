@@ -373,3 +373,55 @@ footer{
 ::-webkit-scrollbar-thumb:hover {
   background: #e85a2a;
 }
+
+
+.btn-receita {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #ff6b35;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-receita:hover {
+  opacity: 0.9;
+  transform: scale(1.03);
+}
+
+.recipe-page {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.recipe-image {
+  width: 100%;
+  max-height: 450px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.recipe-content {
+  margin-top: 20px;
+  line-height: 1.8;
+}
+
+.recipe-content ul,
+.recipe-content ol {
+  padding-left: 20px;
+}
+
+.recipe-content h2,
+.recipe-content h3 {
+  margin-top: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
