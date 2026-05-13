@@ -262,78 +262,78 @@
 
  
  
-  {
-    "id": "brigadeiro-tradicional",
-    "slug": "brigadeiro-tradicional",
-    "nome": "Brigadeiro Tradicional",
-    "categoria": "doces",
-    "imagem": "./brigadeiro.jfif",
-    "descricao": "Brigadeiro clássico brasileiro.",
-    "tempoPreparo": "30 minutos",
-    "dificuldade": "fácil",
-    "porcoes": 20,
-    "receita": "<h2>Brigadeiro 🍫</h2><h3>Modo de Preparo</h3><ol><li>Cozinhar até ponto</li><li>Esfriar</li><li>Enrolar</li></ol>"
-  },
+{
+  "id": "brigadeiro-tradicional",
+  "slug": "brigadeiro-tradicional",
+  "nome": "Brigadeiro Tradicional",
+  "categoria": "doces",
+  "imagem": "./brigadeiro.jfif",
+  "descricao": "Brigadeiro clássico brasileiro, cremoso por dentro e coberto com chocolate granulado.",
+  "tempoPreparo": "30 minutos",
+  "dificuldade": "fácil",
+  "porcoes": 20,
+  "receita": "<h2>Brigadeiro Tradicional 🍫</h2><h3>Ingredientes</h3><ul><li>1 lata de leite condensado</li><li>1 colher de sopa de manteiga</li><li>2 colheres de sopa de chocolate em pó</li><li>Chocolate granulado para enrolar</li></ul><h3>Modo de Preparo</h3><ol><li>Em uma panela, misture leite condensado, manteiga e chocolate em pó</li><li>Cozinhe em fogo médio mexendo sempre até desgrudar do fundo da panela</li><li>Transfira para um prato untado e deixe esfriar</li><li>Unte as mãos com manteiga e enrole as bolinhas</li><li>Passe no chocolate granulado</li><li>Coloque em forminhas e sirva</li></ol>"
+}
 
  
  
-  {
-    "id": "brownie-de-chocolate",
-    "slug": "brownie-de-chocolate",
-    "nome": "Brownie de Chocolate",
-    "categoria": "sobremesas",
-    "imagem": "./brownie.jpg",
-    "descricao": "Brownie macio e intenso.",
-    "tempoPreparo": "60 minutos",
-    "dificuldade": "média",
-    "porcoes": 12,
-    "receita": "<h2>Brownie 🍫</h2><h3>Modo de Preparo</h3><ol><li>Misturar tudo</li><li>Assar</li><li>Cortar quente</li></ol>"
-  },
+ {
+  "id": "brownie-de-chocolate",
+  "slug": "brownie-de-chocolate",
+  "nome": "Brownie de Chocolate",
+  "categoria": "sobremesas",
+  "imagem": "./brownie.jpg",
+  "descricao": "Brownie de chocolate intenso, macio por dentro e com casquinha crocante por fora.",
+  "tempoPreparo": "60 minutos",
+  "dificuldade": "média",
+  "porcoes": 12,
+  "receita": "<h2>Brownie de Chocolate 🍫</h2><h3>Ingredientes</h3><ul><li>200g de chocolate meio amargo</li><li>150g de manteiga</li><li>3 ovos</li><li>2 xícaras de açúcar</li><li>1 xícara de farinha de trigo</li><li>1/2 xícara de chocolate em pó</li><li>1 pitada de sal</li><li>1 colher de essência de baunilha</li></ul><h3>Modo de Preparo</h3><ol><li>Derreta o chocolate com a manteiga</li><li>Misture os ovos e o açúcar até ficar homogêneo</li><li>Adicione o chocolate derretido</li><li>Acrescente farinha, chocolate em pó e sal</li><li>Misture bem até formar uma massa lisa</li><li>Despeje em forma untada</li><li>Asse por 30–35 minutos a 180°C</li><li>Retire ainda levemente úmido</li><li>Corte somente depois de esfriar um pouco (ou quente para textura mais cremosa)</li></ol>"
+},
 
 
 
-  {
-    "id": "biscoito-champanhe",
-    "slug": "sobremesa-biscoito-champanhe",
-    "nome": "Sobremesa de Biscoito Champanhe",
-    "categoria": "sobremesas",
-    "imagem": "./biscoito.jpg",
-    "descricao": "Sobremesa cremosa em camadas.",
-    "tempoPreparo": "60 minutos",
-    "dificuldade": "média",
-    "porcoes": 10,
-    "receita": "<h2>Sobremesa 🍰</h2><h3>Modo de Preparo</h3><ol><li>Fazer creme</li><li>Montar camadas</li><li>Geladeira</li></ol>"
-  },
-
-  
-  
-  {
-    "id": "pave-cremoso-camadas",
-    "slug": "pave-cremoso-camadas",
-    "nome": "Pavê Cremoso em Camadas",
-    "categoria": "sobremesas",
-    "imagem": "./pave.jpg",
-    "descricao": "Pavê tradicional brasileiro.",
-    "tempoPreparo": "60 minutos",
-    "dificuldade": "média",
-    "porcoes": 10,
-    "receita": "<h2>Pavê 🍰</h2><h3>Modo de Preparo</h3><ol><li>Creme</li><li>Biscoito</li><li>Camadas</li><li>Geladeira</li></ol>"
-  },
+{
+  "id": "biscoito-champanhe",
+  "slug": "sobremesa-biscoito-champanhe",
+  "nome": "Sobremesa de Biscoito Champanhe",
+  "categoria": "sobremesas",
+  "imagem": "./biscoito.jpg",
+  "descricao": "Sobremesa cremosa em camadas com biscoito champanhe, creme suave e cobertura leve de chocolate.",
+  "tempoPreparo": "60 minutos + geladeira (3 horas)",
+  "dificuldade": "média",
+  "porcoes": 10,
+  "receita": "<h2>Sobremesa de Biscoito Champanhe 🍰</h2><h3>Ingredientes</h3><h4>Creme</h4><ul><li>1 lata de leite condensado</li><li>2 xícaras de leite</li><li>4 gemas</li><li>1 colher de essência de baunilha</li></ul><h4>Base</h4><ul><li>1 pacote de biscoito champanhe</li><li>1 xícara de leite com chocolate em pó</li></ul><h4>Cobertura</h4><ul><li>4 claras em neve</li><li>4 colheres de açúcar</li><li>1 caixa de creme de leite</li><li>2 colheres de chocolate em pó</li></ul><h3>Modo de Preparo</h3><ol><li>Em uma panela, leve ao fogo leite condensado, leite e gemas até engrossar</li><li>Adicione a essência de baunilha e reserve até esfriar</li><li>Bata as claras em neve com açúcar até formar suspiro</li><li>Misture o creme de leite ao suspiro delicadamente</li><li>Umedeça os biscoitos no leite com chocolate em pó</li><li>Monte em camadas: creme, biscoito, creme novamente</li><li>Finalize com a cobertura</li><li>Leve à geladeira por pelo menos 3 horas</li><li>Sirva bem gelado</li></ol>"
+},
 
   
   
-  {
-    "id": "sorvete-trufado",
-    "slug": "sorvete-trufado",
-    "nome": "Sorvete Trufado",
-    "categoria": "sobremesas",
-    "imagem": "./trufado.jpg",
-    "descricao": "Sobremesa gelada trufada.",
-    "tempoPreparo": "60 minutos + congelamento",
-    "dificuldade": "média",
-    "porcoes": 12,
-    "receita": "<h2>Sorvete 🍨</h2><h3>Modo de Preparo</h3><ol><li>Brigadeiro</li><li>Trufa</li><li>Congelar</li></ol>"
-  },
+{
+  "id": "pave-cremoso-camadas",
+  "slug": "pave-cremoso-camadas",
+  "nome": "Pavê Cremoso em Camadas",
+  "categoria": "sobremesas",
+  "imagem": "./pave.jpg",
+  "descricao": "Pavê cremoso em camadas com creme, biscoito champanhe e cobertura suave de chocolate.",
+  "tempoPreparo": "60 minutos + geladeira (3 horas)",
+  "dificuldade": "média",
+  "porcoes": 10,
+  "receita": "<h2>Pavê Cremoso 🍰</h2><h3>Ingredientes</h3><h4>Creme</h4><ul><li>1 lata de leite condensado</li><li>2 xícaras de leite</li><li>4 gemas</li><li>1 colher de essência de baunilha</li><li>2 colheres de amido de milho</li></ul><h4>Camadas</h4><ul><li>1 pacote de biscoito champanhe</li><li>1 xícara de leite com chocolate em pó (para umedecer)</li></ul><h4>Cobertura</h4><ul><li>4 claras</li><li>4 colheres de açúcar</li><li>1 caixa de creme de leite</li><li>2 colheres de chocolate em pó</li></ul><h3>Modo de Preparo</h3><ol><li>Em uma panela, misture leite condensado, leite, gemas e amido de milho</li><li>Cozinhe até engrossar e finalize com baunilha</li><li>Reserve e deixe esfriar</li><li>Bata as claras em neve com açúcar até formar suspiro</li><li>Misture o creme de leite ao suspiro e reserve</li><li>Umedeça os biscoitos no leite com chocolate</li><li>Monte o pavê em camadas: creme, biscoito, creme novamente</li><li>Finalize com a cobertura</li><li>Leve à geladeira por no mínimo 3 horas</li><li>Sirva bem gelado</li></ol>"
+},
+
+  
+  
+{
+  "id": "sorvete-trufado",
+  "slug": "sorvete-trufado",
+  "nome": "Sorvete Trufado",
+  "categoria": "sobremesas",
+  "imagem": "./trufado.jpg",
+  "descricao": "Sobremesa gelada trufada com camadas de sorvete, brigadeiro e ganache de chocolate.",
+  "tempoPreparo": "60 minutos + congelamento",
+  "dificuldade": "média",
+  "porcoes": 12,
+  "receita": "<h2>Sorvete Trufado 🍨🍫</h2><h3>Ingredientes</h3><h4>Brigadeiro</h4><ul><li>1 lata de leite condensado</li><li>2 colheres de sopa de chocolate em pó</li><li>1 colher de sopa de manteiga</li></ul><h4>Trufa de Chocolate</h4><ul><li>200g de chocolate meio amargo</li><li>1 caixa de creme de leite</li><li>1 colher de sopa de glucose de milho (opcional)</li></ul><h4>Montagem</h4><ul><li>1 pote de sorvete de creme (ou sabor de sua preferência)</li><li>Chocolate ao leite derretido para cobertura</li></ul><h3>Modo de Preparo</h3><ol><li>Em uma panela, faça o brigadeiro: misture leite condensado, chocolate em pó e manteiga</li><li>Cozinhe em fogo médio até desgrudar do fundo da panela</li><li>Reserve e deixe esfriar</li><li>Derreta o chocolate meio amargo no micro-ondas ou banho-maria</li><li>Misture com o creme de leite até formar uma ganache lisa</li><li>Adicione a glucose se quiser mais brilho e textura</li><li>Em uma forma forrada com plástico filme, faça camadas de sorvete, brigadeiro e ganache</li><li>Repita as camadas até preencher a forma</li><li>Leve ao congelador por pelo menos 6 horas ou até firmar bem</li><li>Desenforme e cubra com chocolate ao leite derretido antes de servir</li></ol>"
+},
 
  
  
