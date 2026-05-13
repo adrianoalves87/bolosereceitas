@@ -201,6 +201,53 @@
   },
 
   {
+  "id": "bolo-de-pacoca",
+  "slug": "bolo-de-pacoca-caseiro",
+  "nome": "Bolo de Paçoca",
+  "categoria": "bolos",
+  "imagem": "./pacoca.jpg",
+  "descricao": "Bolo fofinho com sabor intenso de paçoca e cobertura cremosa.",
+  "tempoPreparo": "55 minutos",
+  "dificuldade": "fácil",
+  "porcoes": 10,
+  "receita": "<h2>Bolo de Paçoca 🥜</h2><h3>Ingredientes</h3><ul><li>3 ovos</li><li>1 xícara de açúcar</li><li>1/2 xícara de óleo</li><li>1 xícara de leite</li><li>2 xícaras de farinha de trigo</li><li>1 colher de fermento em pó</li><li>5 paçocas esfareladas</li></ul><h3>Cobertura</h3><ul><li>1 lata de leite condensado</li><li>2 paçocas esfareladas</li><li>1 colher de manteiga</li><li>1/2 caixa de creme de leite</li></ul><h3>Modo de Preparo</h3><ol><li>Em uma tigela, bata os ovos com o açúcar até ficar cremoso</li><li>Adicione o óleo e o leite e misture bem</li><li>Acrescente a farinha aos poucos, mexendo até ficar homogêneo</li><li>Adicione as paçocas esfareladas e misture</li><li>Por último, coloque o fermento e mexa levemente</li><li>Despeje em forma untada e leve ao forno a 180°C por cerca de 35 a 40 minutos</li><li>Para a cobertura, leve ao fogo o leite condensado com a manteiga até engrossar</li><li>Desligue o fogo e misture o creme de leite e a paçoca</li><li>Espalhe sobre o bolo já frio e finalize com paçoca triturada por cima</li></ol>"
+},
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  {
     "id": "pudim-de-leite-condensado",
     "slug": "pudim-de-leite-condensado",
     "nome": "Pudim de Leite Condensado",
