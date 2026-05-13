@@ -319,30 +319,17 @@
 
 
  {
-    "id": "biscoito-polvilho",
-    "slug": "biscoito-polvilho",
-    "nome": "Biscoito de Polvilho",
-    "categoria": "biscoitos",
-    "descricao": "Biscoito caseiro crocante e simples.",
-    "tempoPreparo": "1h",
-    "dificuldade": "fácil",
-    "porcoes": 40,
-    "ingredientes": [
-      "500 g de polvilho doce",
-      "1 xícara de farinha de trigo",
-      "250 g de margarina",
-      "1 xícara de açúcar",
-      "1 colher (café) de fermento em pó",
-      "2 ovos",
-      "100 g de coco ralado (opcional)"
-    ],
-    "modoPreparo": [
-      "Misture todos os ingredientes.",
-      "Modele os biscoitos.",
-      "Leve ao forno médio até dourar."
-    ],
-    "observacoes": "Não precisa untar a forma. Biscoitos já têm gordura suficiente na massa."
-  }
+  "id": "biscoito-polvilho-doce",
+  "slug": "biscoito-polvilho-doce",
+  "nome": "Biscoito de Polvilho Doce",
+  "categoria": "biscoitos",
+  "imagem": "./biscoito-polvilho.jpg",
+  "descricao": "Biscoito caseiro crocante por fora e macio por dentro, perfeito para o café da tarde.",
+  "tempoPreparo": "1 hora",
+  "dificuldade": "fácil",
+  "porcoes": 40,
+  "receita": "<h2>Biscoito de Polvilho Doce 🍪</h2><h3>Ingredientes</h3><ul><li>500 g de polvilho doce</li><li>1 xícara de farinha de trigo</li><li>250 g de margarina</li><li>1 xícara (chá) de açúcar</li><li>1 colher (café) de fermento em pó químico</li><li>2 ovos</li><li>100 g de coco ralado (opcional)</li></ul><h3>Modo de Preparo</h3><ol><li>Em uma tigela grande, misture o polvilho doce, a farinha de trigo, o açúcar e o fermento.</li><li>Adicione a margarina e misture bem até formar uma farofa úmida.</li><li>Acrescente os ovos e continue misturando até obter uma massa homogênea.</li><li>Se desejar, adicione o coco ralado e misture novamente.</li><li>Modele os biscoitos no formato desejado.</li><li>Distribua em uma assadeira untada ou forrada com papel manteiga.</li><li>Leve ao forno médio pré-aquecido a 180°C por cerca de 20 a 30 minutos, ou até dourar levemente na parte de baixo.</li><li>Retire do forno, espere esfriar e sirva.</li></ol>"
+}
 
 
 
