@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Receita</title>
+<title>Receita | Bolos e Receitas</title>
 
 <meta name="description" content="Receitas completas de bolos e sobremesas.">
 <meta name="robots" content="index, follow">
@@ -29,11 +29,16 @@ Bolos e Receitas
 
 </header>
 
+<!-- MAIN -->
+<main>
+
 <section class="section">
 
 <div id="receitaContainer"></div>
 
 </section>
+
+</main>
 
 <script>
 
@@ -41,39 +46,85 @@ fetch("./receitas.json")
 .then(res => res.json())
 .then(receitas => {
 
-  const params = new URLSearchParams(window.location.search);
+  const params =
+    new URLSearchParams(window.location.search);
 
   const id = params.get("id");
 
-  const receita = receitas.find(r => r.id === id);
+  const receita =
+    receitas.find(r => r.id === id);
+
+  /* RECEITA NÃO ENCONTRADA */
 
   if (!receita) {
 
-    document.getElementById("receitaContainer").innerHTML = `
-      <h2>Receita não encontrada</h2>
+    document.getElementById(
+      "receitaContainer"
+    ).innerHTML = `
+      <h1>Receita não encontrada</h1>
+
+      <p>
+        A receita que você procura não existe.
+      </p>
     `;
 
     return;
   }
 
-  document.title = receita.nome + " | Bolos e Receitas";
+  /* SEO DINÂMICO */
 
-  document.getElementById("receitaContainer").innerHTML = `
+  document.title =
+    receita.nome + " | Bolos e Receitas";
 
-    <div class="recipe-page">
+  document.querySelector(
+    'meta[name="description"]'
+  ).setAttribute(
+    "content",
+    receita.descricao
+  );
 
-      <img src="${receita.imagem}" alt="${receita.nome}" class="recipe-image">
+  /* RENDER RECEITA */
 
-      <h1>${receita.nome}</h1>
+  document.getElementById(
+    "receitaContainer"
+  ).innerHTML = `
 
-      <p>${receita.descricao}</p>
+    <article class="recipe-page">
+
+      <img
+        src="${receita.imagem}"
+        alt="${receita.nome}"
+        class="recipe-image"
+      >
+
+      <h1>
+        ${receita.nome}
+      </h1>
+
+      <p>
+        ${receita.descricao}
+      </p>
 
       <div class="recipe-content">
         ${receita.receita}
       </div>
 
-    </div>
+    </article>
 
+  `;
+
+})
+
+.catch(() => {
+
+  document.getElementById(
+    "receitaContainer"
+  ).innerHTML = `
+    <h1>Erro ao carregar receita</h1>
+
+    <p>
+      Tente novamente mais tarde.
+    </p>
   `;
 
 });
