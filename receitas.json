@@ -46,7 +46,7 @@
     "slug": "bolo-vulcao",
     "nome": "Bolo Vulcão",
     "categoria": "bolos",
-    "imagem": "./vulcao.png",
+    "imagem": "./vulcao.webp",
     "descricao": "Muito chocolate e cobertura cremosa.",
     "tempoPreparo": "1 hora",
     "dificuldade": "média",
