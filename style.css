@@ -1,296 +1,810 @@
-/* =========================
-   RESET PROFISSIONAL
-========================= */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
 
-body {
-  background: #faf7f4;
-  color: #222;
-  padding-top: 80px; /* CORRIGE HEADER FIXO */
-}
+:root{
 
-/* =========================
-   HEADER LIMPO MODERNO
-========================= */
+  --primary:#ff6b35;
+  --primary-hover:#e85a2a;
 
-header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 70px;
-  background: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 25px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-  z-index: 1000;
-  transition: 0.3s;
-}
+  /* contraste melhor */
+  --text:#1f1f1f;
+  --text-light:#444;
 
-header.hide {
-  transform: translateY(-100%);
-}
+  --bg:#fff8f3;
+  --white:#ffffff;
 
-.logo {
-  font-size: 18px;
-  font-weight: 700;
-  color: #ff6b35;
-}
+  --border:#ececec;
 
-nav {
-  display: flex;
-  gap: 18px;
-}
+  --shadow:
+  0 8px 24px rgba(0,0,0,0.06);
 
-nav a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-  transition: 0.2s;
-}
+  --radius:24px;
 
-nav a:hover {
-  color: #ff6b35;
 }
 
 /* =========================
-   HERO PROFISSIONAL
+   BASE
 ========================= */
 
-.hero {
-  background: linear-gradient(135deg, #fff, #ffe9dd);
-  padding: 80px 20px;
-  text-align: center;
+html{
+  scroll-behavior:smooth;
 }
 
-.hero-text {
-  max-width: 750px;
-  margin: auto;
+body{
+
+  font-family:'Poppins',sans-serif;
+
+  background:var(--bg);
+
+  color:var(--text);
+
+  overflow-x:hidden;
+
+  padding-top:90px;
+
+  line-height:1.7;
+
+  text-rendering:optimizeLegibility;
+
+  -webkit-font-smoothing:antialiased;
+
 }
 
-.tag {
-  display: inline-block;
-  background: #ff6b35;
-  color: #fff;
-  padding: 6px 14px;
-  border-radius: 30px;
-  font-size: 12px;
-  margin-bottom: 15px;
+/* melhora SEO/acessibilidade */
+
+img{
+  max-width:100%;
+  height:auto;
 }
 
-.hero h1 {
-  font-size: 40px;
-  margin-bottom: 10px;
+a{
+  color:inherit;
 }
 
-.hero p {
-  color: #555;
-  margin-bottom: 20px;
+/* foco acessível */
+
+a:focus,
+button:focus,
+input:focus{
+
+  outline:3px solid rgba(255,107,53,.25);
+
+  outline-offset:3px;
+
 }
 
 /* =========================
-   BUSCA MELHORADA
+   HEADER
 ========================= */
 
-.search-box {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  margin-top: 15px;
+header{
+
+  width:100%;
+
+  padding:18px 40px;
+
+  position:fixed;
+
+  top:0;
+  left:0;
+
+  z-index:1000;
+
+  display:flex;
+
+  justify-content:space-between;
+
+  align-items:center;
+
+  background:rgba(255,255,255,0.92);
+
+  /* blur leve = mais performance */
+  backdrop-filter:blur(6px);
+
+  -webkit-backdrop-filter:blur(6px);
+
+  border-bottom:1px solid var(--border);
+
+  box-shadow:
+  0 4px 14px rgba(0,0,0,0.04);
+
+  transition:
+  transform .35s ease,
+  opacity .35s ease;
+
 }
 
-.search-box input {
-  width: 60%;
-  padding: 12px;
-  border-radius: 10px;
-  border: 1px solid #ddd;
-  outline: none;
-}
+header.hide{
 
-.search-box button {
-  background: #ff6b35;
-  border: none;
-  padding: 12px 18px;
-  color: #fff;
-  border-radius: 10px;
-  cursor: pointer;
+  transform:translateY(-120%);
+
+  opacity:0;
+
+  pointer-events:none;
+
 }
 
 /* =========================
-   SEÇÕES
+   LOGO
 ========================= */
 
-.section {
-  max-width: 1200px;
-  margin: auto;
-  padding: 70px 20px;
-}
+.logo{
 
-.title {
-  text-align: center;
-  margin-bottom: 35px;
-}
+  font-size:30px;
 
-.title h2 {
-  font-size: 30px;
-}
+  font-weight:700;
 
-.title p {
-  color: #666;
+  color:var(--primary);
+
+  letter-spacing:.4px;
+
 }
 
 /* =========================
-   GRID PROFISSIONAL
+   NAV
 ========================= */
 
-.recipes {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 22px;
+nav{
+
+  display:flex;
+
+  gap:24px;
+
+  flex-wrap:wrap;
+
+}
+
+nav a{
+
+  text-decoration:none;
+
+  font-weight:600;
+
+  font-size:15px;
+
+  color:#2f2f2f;
+
+  position:relative;
+
+  transition:.25s ease;
+
+}
+
+nav a::after{
+
+  content:"";
+
+  position:absolute;
+
+  left:0;
+
+  bottom:-5px;
+
+  width:0%;
+
+  height:2px;
+
+  background:var(--primary);
+
+  transition:.25s ease;
+
+}
+
+nav a:hover{
+  color:var(--primary);
+}
+
+nav a:hover::after{
+  width:100%;
 }
 
 /* =========================
-   CARD TOP (AGORA FICOU BONITO)
+   HERO
 ========================= */
 
-.recipe-card {
-  background: #fff;
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
-  transition: 0.3s;
+.hero{
+
+  min-height:82vh;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  text-align:center;
+
+  padding:80px 8%;
+
 }
 
-.recipe-card:hover {
-  transform: translateY(-6px);
+.hero-text{
+  max-width:900px;
 }
 
-.recipe-card img {
-  width: 100%;
-  height: 190px;
-  object-fit: cover;
+.tag{
+
+  display:inline-block;
+
+  background:#ffe2d6;
+
+  color:#c74e24;
+
+  padding:10px 18px;
+
+  border-radius:999px;
+
+  font-weight:600;
+
+  margin-bottom:25px;
+
 }
 
-.recipe-info {
-  padding: 15px;
+.hero-text h1{
+
+  font-size:clamp(42px,7vw,68px);
+
+  line-height:1.1;
+
+  margin-bottom:25px;
+
+  color:#1b1b1b;
+
 }
 
-.recipe-info h3 {
-  font-size: 18px;
-  margin-bottom: 6px;
-}
+.hero-text p{
 
-.recipe-info p {
-  font-size: 14px;
-  color: #666;
-  margin-bottom: 12px;
-}
+  font-size:20px;
 
-.btn-receita {
-  display: inline-block;
-  background: #ff6b35;
-  color: #fff;
-  padding: 10px 14px;
-  border-radius: 10px;
-  text-decoration: none;
-  font-size: 14px;
+  color:var(--text-light);
+
+  line-height:1.8;
+
+  margin-bottom:35px;
+
 }
 
 /* =========================
-   SOBRE / CONTATO
+   SEARCH
 ========================= */
 
-.newsletter {
-  background: #fff;
-  padding: 35px;
-  border-radius: 16px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
-  text-align: center;
+.search-box{
+
+  display:flex;
+
+  align-items:center;
+
+  background:var(--white);
+
+  padding:10px;
+
+  border-radius:20px;
+
+  box-shadow:var(--shadow);
+
+  max-width:700px;
+
+  margin:auto;
+
+}
+
+.search-box input{
+
+  flex:1;
+
+  border:none;
+
+  outline:none;
+
+  padding:18px;
+
+  font-size:16px;
+
+  color:var(--text);
+
+  background:transparent;
+
+}
+
+.search-box input::placeholder{
+  color:#777;
+}
+
+.search-box button{
+
+  border:none;
+
+  background:var(--primary);
+
+  color:var(--white);
+
+  padding:18px 30px;
+
+  border-radius:15px;
+
+  cursor:pointer;
+
+  font-weight:600;
+
+  transition:
+  background .2s ease,
+  transform .2s ease;
+
+}
+
+.search-box button:hover{
+
+  background:var(--primary-hover);
+
+  transform:translateY(-1px);
+
+}
+
+/* =========================
+   SECTION
+========================= */
+
+.section{
+  padding:90px 8%;
+}
+
+.title{
+
+  text-align:center;
+
+  margin-bottom:60px;
+
+}
+
+.title h2{
+
+  font-size:48px;
+
+  margin-bottom:15px;
+
+  color:#1f1f1f;
+
+}
+
+.title p{
+
+  color:var(--text-light);
+
+  font-size:18px;
+
+}
+
+/* =========================
+   GRID
+========================= */
+
+.recipes{
+
+  display:grid;
+
+  grid-template-columns:
+  repeat(auto-fit,minmax(280px,1fr));
+
+  gap:30px;
+
+}
+
+/* =========================
+   CARD
+========================= */
+
+.recipe-card{
+
+  background:var(--white);
+
+  border-radius:var(--radius);
+
+  overflow:hidden;
+
+  box-shadow:var(--shadow);
+
+  border:1px solid #f2f2f2;
+
+  transition:
+  transform .25s ease,
+  box-shadow .25s ease;
+
+}
+
+.recipe-card:hover{
+
+  transform:translateY(-6px);
+
+  box-shadow:
+  0 14px 30px rgba(0,0,0,0.08);
+
+}
+
+.recipe-card img{
+
+  width:100%;
+
+  height:240px;
+
+  object-fit:cover;
+
+  display:block;
+
+}
+
+.recipe-info{
+  padding:25px;
+}
+
+.recipe-info h3{
+
+  font-size:28px;
+
+  margin-bottom:12px;
+
+  color:#1f1f1f;
+
+}
+
+.recipe-info p{
+
+  color:var(--text-light);
+
+  line-height:1.7;
+
+  margin-bottom:20px;
+
+}
+
+/* =========================
+   BUTTON
+========================= */
+
+.btn-receita{
+
+  display:inline-block;
+
+  padding:14px 20px;
+
+  background:var(--primary);
+
+  color:var(--white);
+
+  text-decoration:none;
+
+  border-radius:14px;
+
+  font-weight:600;
+
+  transition:
+  transform .2s ease,
+  opacity .2s ease;
+
+}
+
+.btn-receita:hover{
+
+  opacity:.94;
+
+  transform:translateY(-2px);
+
+}
+
+/* =========================
+   RECIPE PAGE
+========================= */
+
+.recipe-page{
+
+  max-width:900px;
+
+  margin:auto;
+
+  background:var(--white);
+
+  padding:30px;
+
+  border-radius:var(--radius);
+
+  box-shadow:var(--shadow);
+
+}
+
+.recipe-image{
+
+  width:100%;
+
+  max-height:450px;
+
+  object-fit:cover;
+
+  border-radius:20px;
+
+  margin-bottom:20px;
+
+  display:block;
+
+}
+
+.recipe-content{
+
+  margin-top:20px;
+
+  line-height:1.9;
+
+  color:#2f2f2f;
+
+}
+
+.recipe-content ul,
+.recipe-content ol{
+
+  padding-left:24px;
+
+}
+
+.recipe-content h2,
+.recipe-content h3{
+
+  margin-top:24px;
+
+}
+
+/* =========================
+   NEWSLETTER
+========================= */
+
+.newsletter{
+
+  background:var(--primary);
+
+  color:var(--white);
+
+  border-radius:var(--radius);
+
+  padding:40px 24px;
+
+  text-align:center;
+
+  max-width:700px;
+
+  margin:40px auto;
+
+  box-shadow:var(--shadow);
+
+}
+
+.newsletter p{
+  color:#fff;
 }
 
 /* =========================
    FOOTER
 ========================= */
 
-footer {
-  background: #1d1d1d;
-  color: #fff;
-  text-align: center;
-  padding: 40px 20px;
+footer{
+
+  background:#111;
+
+  color:#fff;
+
+  text-align:center;
+
+  padding:40px 20px;
+
 }
 
-footer a {
-  color: #ff6b35;
-  margin: 0 10px;
-  text-decoration: none;
+footer h2{
+  margin-bottom:10px;
 }
 
-.copyright {
-  text-align: center;
-  background: #111;
-  color: #aaa;
-  padding: 12px;
-  font-size: 13px;
+footer p{
+
+  margin-bottom:15px;
+
+  color:#d5d5d5;
+
 }
 
-/* =========================
-   PÁGINA RECEITA
-========================= */
+footer a{
 
-.recipe-page {
-  max-width: 800px;
-  margin: auto;
-  padding: 30px 20px 60px;
+  color:#fff;
+
+  text-decoration:none;
+
+  margin:0 10px;
+
 }
 
-.recipe-page img {
-  width: 100%;
-  border-radius: 16px;
-  margin-bottom: 20px;
-}
-
-.recipe-page h1 {
-  font-size: 32px;
-  margin-bottom: 10px;
-}
-
-.recipe-content h2 {
-  color: #ff6b35;
-  margin-top: 20px;
-}
-
-.recipe-content ul,
-.recipe-content ol {
-  margin-left: 20px;
-  margin-top: 10px;
+footer a:hover{
+  text-decoration:underline;
 }
 
 /* =========================
-   MOBILE REAL
+   COPYRIGHT
 ========================= */
 
-@media (max-width: 768px) {
+.copyright{
 
-  nav {
-    display: none;
+  background:#0b0b0b;
+
+  color:#c7c7c7;
+
+  text-align:center;
+
+  padding:14px;
+
+  font-size:14px;
+
+}
+
+/* =========================
+   MODAL
+========================= */
+
+.recipe-modal{
+
+  display:none;
+
+  position:fixed;
+
+  inset:0;
+
+  width:100%;
+  height:100%;
+
+  background:rgba(0,0,0,0.7);
+
+  z-index:9999;
+
+  justify-content:center;
+  align-items:center;
+
+  padding:20px;
+
+}
+
+.modal-content{
+
+  background:var(--white);
+
+  width:100%;
+
+  max-width:750px;
+
+  border-radius:var(--radius);
+
+  padding:40px;
+
+  position:relative;
+
+  max-height:90vh;
+
+  overflow-y:auto;
+
+}
+
+.close{
+
+  position:absolute;
+
+  top:20px;
+  right:25px;
+
+  font-size:35px;
+
+  cursor:pointer;
+
+}
+
+/* =========================
+   SCROLLBAR
+========================= */
+
+::-webkit-scrollbar{
+  width:8px;
+}
+
+::-webkit-scrollbar-track{
+  background:#f1f1f1;
+}
+
+::-webkit-scrollbar-thumb{
+
+  background:var(--primary);
+
+  border-radius:10px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background:var(--primary-hover);
+}
+
+/* =========================
+   RESPONSIVO
+========================= */
+
+@media(max-width:900px){
+
+  body{
+    padding-top:115px;
   }
 
-  .hero h1 {
-    font-size: 26px;
+  header{
+
+    flex-direction:column;
+
+    gap:15px;
+
+    padding:18px 20px;
+
   }
 
-  .search-box {
-    flex-direction: column;
+  nav{
+
+    justify-content:center;
+
+    gap:18px;
+
   }
 
-  .search-box input {
-    width: 100%;
+  .hero{
+
+    min-height:auto;
+
+    padding:60px 6%;
+
   }
+
+  .hero-text h1{
+    font-size:42px;
+  }
+
+  .hero-text p{
+    font-size:18px;
+  }
+
+  .search-box{
+
+    flex-direction:column;
+
+    gap:10px;
+
+  }
+
+  .search-box button{
+    width:100%;
+  }
+
+  .title h2{
+    font-size:36px;
+  }
+
+  .recipe-info h3{
+    font-size:24px;
+  }
+
+  .modal-content{
+    padding:25px;
+  }
+
+  .recipe-page{
+    padding:20px;
+  }
+
+}
+
+/* reduz animações para acessibilidade */
+
+@media(prefers-reduced-motion:reduce){
+
+  *{
+    scroll-behavior:auto !important;
+    transition:none !important;
+  }
+
 }
