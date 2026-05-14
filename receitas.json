@@ -26,7 +26,19 @@
   "receita": "<h2>Bolo no Pote de Chocolate e Coco 🍫🥥</h2><h3>Ingredientes da Ganache</h3><ul><li>150 gramas de cobertura de chocolate meio amargo</li><li>150 gramas de creme de leite</li></ul><h3>Ingredientes do Creme</h3><ul><li>1 caixinha de leite condensado</li><li>1 caixinha de creme de leite</li><li>120 ml de leite</li><li>6 gramas de amido de milho</li><li>2 gemas</li><li>50 gramas de coco ralado</li></ul><h3>Ingredientes da Massa</h3><ul><li>3 ovos</li><li>180 gramas de açúcar</li><li>180 gramas de farinha de trigo</li><li>120 ml de óleo</li><li>60 gramas de chocolate em pó</li><li>180 ml de leite</li><li>5 gramas de bicarbonato de sódio</li><li>10 gramas de fermento químico em pó</li></ul><h3>Modo de Preparo</h3><ol><li>Em uma tigela, misture os ovos, o açúcar e o óleo até ficar homogêneo.</li><li>Adicione o leite e o chocolate em pó aos poucos, mexendo sempre.</li><li>Acrescente a farinha de trigo e misture bem.</li><li>Finalize adicionando o bicarbonato e o fermento, misturando delicadamente.</li><li>Despeje a massa em forma untada e asse em forno preaquecido a 180°C por cerca de 35 minutos.</li><li>Para o creme, misture leite condensado, leite, amido de milho e gemas em uma panela.</li><li>Leve ao fogo baixo mexendo até engrossar.</li><li>Adicione o creme de leite e misture bem.</li><li>Divida o creme em duas partes e adicione coco ralado em uma delas.</li><li>Para a ganache, derreta o chocolate no micro-ondas de 30 em 30 segundos.</li><li>Misture o creme de leite até formar um creme brilhante.</li><li>Monte os potes fazendo camadas de creme, bolo esfarelado e mais creme.</li><li>Finalize com a ganache de chocolate.</li><li>Na versão de coco, finalize com coco ralado por cima.</li><li>Sirva gelado ou utilize para venda.</li></ol>"
 },
  
- 
+
+ {
+  "id": "bolo-de-nozes",
+  "slug": "bolo-de-nozes",
+  "nome": "Bolo de Nozes",
+  "categoria": "bolos",
+  "imagem": "./bnozes.png", 
+  "descricao": "Bolo de nozes macio e sofisticado, perfeito para acompanhar um café especial.",
+  "tempoPreparo": "55 minutos",
+  "dificuldade": "média",
+  "porcoes": 10,
+  "receita": "<h2>Bolo de Nozes 🌰</h2><h3>Ingredientes</h3><ul><li>4 ovos médios</li><li>100 gramas de manteiga em temperatura ambiente</li><li>1 e 1/2 xícara de chá de açúcar mascavo</li><li>1 colher de chá de canela em pó</li><li>2 e 1/2 xícaras de chá de farinha de trigo</li><li>1 xícara de chá de leite integral</li><li>1 xícara de chá de nozes picadas</li><li>1 colher de sopa de fermento químico em pó</li><li>Nozes e açúcar de confeiteiro para decorar</li><li>Manteiga e farinha de trigo para untar</li></ul><h3>Modo de Preparo</h3><ol><li>Unte uma forma redonda com manteiga e farinha de trigo.</li><li>Preaqueça o forno a 180°C por 10 minutos.</li><li>Na batedeira, bata os ovos, a manteiga e o açúcar mascavo até obter um creme claro e fofo.</li><li>Adicione a canela e o leite.</li><li>Peneire a farinha de trigo aos poucos e misture delicadamente até formar uma massa homogênea.</li><li>Acrescente as nozes picadas e misture bem.</li><li>Adicione o fermento e mexa delicadamente.</li><li>Despeje a massa na forma untada.</li><li>Asse por cerca de 35 minutos ou até passar no teste do palito.</li><li>Retire do forno, deixe amornar e desenforme.</li><li>Finalize decorando com açúcar de confeiteiro e nozes.</li><li>Sirva e aproveite.</li></ol>"
+},
  
  
  {
