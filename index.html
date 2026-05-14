@@ -2,564 +2,118 @@
 <html lang="pt-BR">
 
 <head>
-
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0">
+<title>Bolos e Receitas | Receitas fáceis e caseiras</title>
 
-<title>Bolos e Receitas</title>
-
-<meta name="description"
-content="Receitas fáceis de bolos, sobremesas e comidas caseiras. Aprenda a cozinhar com passos simples.">
-
-<meta name="robots"
-content="index, follow">
-
-<!-- PERFORMANCE -->
-
-<link rel="preconnect"
-href="https://fonts.googleapis.com">
-
-<link rel="preconnect"
-href="https://fonts.gstatic.com"
-crossorigin>
-
-<!-- FONTS -->
-
-<link
-href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
-rel="stylesheet">
-
-<!-- CSS -->
-
-<link rel="stylesheet"
-href="./style.css">
-
-<!-- PRELOAD HERO IMAGE -->
-
-<link
-rel="preload"
-as="image"
-href="./vulcao.webp">
+<meta name="description" content="Receitas fáceis de bolos, sobremesas e doces caseiros. Aprenda passo a passo.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://bolosereceitas.com">
 
 <!-- OPEN GRAPH -->
+<meta property="og:title" content="Bolos e Receitas">
+<meta property="og:description" content="Receitas fáceis de bolos e sobremesas caseiras.">
+<meta property="og:type" content="website">
 
-<meta property="og:title"
-content="Bolos e Receitas">
-
-<meta property="og:description"
-content="Receitas fáceis de bolos, sobremesas e comidas caseiras.">
-
-<meta property="og:type"
-content="website">
-
-<meta property="og:image"
-content="https://bolosereceitas.com/vulcao.webp">
-
-<meta property="og:url"
-content="https://bolosereceitas.com">
-
-<!-- ADSENSE -->
-
-<script async
-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3075990199340465"
-crossorigin="anonymous"></script>
-
-<meta name="google-adsense-account"
-content="ca-pub-3075990199340465">
-
-<!-- ICONS -->
-
-<link rel="icon"
-type="image/png"
-sizes="512x512"
-href="./android-chrome-512x512.png">
-
-<link rel="icon"
-type="image/png"
-sizes="32x32"
-href="./favicon-32x32.png">
-
-<link rel="icon"
-type="image/png"
-sizes="16x16"
-href="./favicon-16x16.png">
-
-<link rel="icon"
-href="./favicon.ico"
-type="image/x-icon">
-
-<link rel="apple-touch-icon"
-href="./apple-touch-icon.png">
-
-<meta name="theme-color"
-content="#ffffff">
+<!-- CSS -->
+<link rel="stylesheet" href="./style.css">
 
 </head>
 
 <body>
 
-<!-- HEADER -->
-
 <header>
-
-<div class="logo">
-Bolos e Receitas
-</div>
+<div class="logo">Bolos e Receitas</div>
 
 <nav>
-
-<a href="#inicio">
-Início
-</a>
-
-<a href="#bolos">
-Bolos
-</a>
-
-<a href="#sobremesas">
-Sobremesas
-</a>
-
-<a href="#sobre">
-Sobre
-</a>
-
-<a href="#contato">
-Contato
-</a>
-
+<a href="#inicio">Início</a>
+<a href="#bolos">Bolos</a>
+<a href="#sobremesas">Sobremesas</a>
 </nav>
-
 </header>
-
-<!-- MAIN -->
 
 <main>
 
-<!-- HERO -->
-
 <section class="hero" id="inicio">
-
-<div class="hero-text">
-
-<div class="tag">
-Receitas deliciosas e fáceis
-</div>
-
-<h1>
-As Melhores Receitas Estão Aqui 🍰
-</h1>
-
-<p>
-Receitas completas com ingredientes e modo de preparo.
-</p>
-
-<!-- SEARCH -->
+<h1>As melhores receitas caseiras 🍰</h1>
 
 <div class="search-box">
-
-<input
-type="text"
-id="searchInput"
-placeholder="Digite uma receita..."
-aria-label="Buscar receita">
-
-<button id="searchBtn">
-Buscar
-</button>
-
+<input type="text" id="searchInput" placeholder="Buscar receita...">
+<button id="searchBtn">Buscar</button>
 </div>
-
-</div>
-
 </section>
 
-<!-- BOLOS -->
-
-<section class="section" id="bolos">
-
-<div class="title">
-
-<h2>
-Bolos
-</h2>
-
-<p>
-Bolos fofinhos e deliciosos.
-</p>
-
-</div>
-
-<div class="recipes"
-id="bolosContainer">
-</div>
-
+<section id="bolos" class="section">
+<h2>Bolos</h2>
+<div id="bolosContainer"></div>
 </section>
 
-<!-- SOBREMESAS -->
-
-<section class="section" id="sobremesas">
-
-<div class="title">
-
-<h2>
-Sobremesas
-</h2>
-
-<p>
-Sobremesas incríveis e irresistíveis.
-</p>
-
-</div>
-
-<div class="recipes"
-id="sobremesasContainer">
-</div>
-
-</section>
-
-<!-- SOBRE -->
-
-<section class="section"
-id="sobre">
-
-<div class="newsletter">
-
-<h2>
-Sobre
-</h2>
-
-<p>
-O Bolos e Receitas é um site criado para compartilhar receitas simples,
-práticas e deliciosas para o dia a dia.
-
-Nosso objetivo é ajudar pessoas que gostam de cozinhar em casa,
-trazendo receitas de bolos, sobremesas e pratos fáceis.
-</p>
-
-</div>
-
-</section>
-
-<!-- CONTATO -->
-
-<section class="section"
-id="contato">
-
-<div class="newsletter">
-
-<h2>
-Contato
-</h2>
-
-<p>
-bolosereceitas2026@outlook.com
-</p>
-
-</div>
-
+<section id="sobremesas" class="section">
+<h2>Sobremesas</h2>
+<div id="sobremesasContainer"></div>
 </section>
 
 </main>
 
-<!-- FOOTER -->
-
 <footer>
-
-<h2>
-Bolos e Receitas
-</h2>
-
-<p>
-Receitas caseiras fáceis e deliciosas.
-</p>
-
-<a href="politica.html">
-Política de Privacidade
-</a>
-
-<a href="termos.html">
-Termos de Uso
-</a>
-
+<p>© 2026 Bolos e Receitas</p>
 </footer>
-
-<!-- COPYRIGHT -->
-
-<div class="copyright">
-
-© 2026 Bolos e Receitas -
-Todos os direitos reservados.
-
-</div>
-
-<!-- SCRIPT -->
 
 <script>
 
 let receitas = [];
 
-const bolosContainer =
-document.getElementById("bolosContainer");
-
-const sobremesasContainer =
-document.getElementById("sobremesasContainer");
-
-const searchInput =
-document.getElementById("searchInput");
-
-const searchBtn =
-document.getElementById("searchBtn");
-
-/* =========================
-   SALVAR POSIÇÃO
-========================= */
-
-function salvarScroll() {
-
-  localStorage.setItem(
-    "scrollPos",
-    window.scrollY
-  );
-
-}
-
-/* =========================
-   HEADER SCROLL
-========================= */
-
-let lastScrollTop = 0;
-
-window.addEventListener("scroll", () => {
-
-  const header =
-  document.querySelector("header");
-
-  if (!header) return;
-
-  const scrollTop =
-    window.pageYOffset ||
-    document.documentElement.scrollTop;
-
-  if (
-    scrollTop > lastScrollTop &&
-    scrollTop > 80
-  ) {
-
-    header.classList.add("hide");
-
-  } else {
-
-    header.classList.remove("hide");
-
-  }
-
-  lastScrollTop =
-    scrollTop <= 0 ? 0 : scrollTop;
-
-});
-
-/* =========================
-   FETCH JSON
-========================= */
+const bolosContainer = document.getElementById("bolosContainer");
+const sobremesasContainer = document.getElementById("sobremesasContainer");
+const searchInput = document.getElementById("searchInput");
 
 fetch("./receitas.json")
-
-.then(res => res.json())
-
+.then(r => r.json())
 .then(data => {
-
   receitas = data;
-
   render();
-
-})
-
-.catch(() => {
-
-  bolosContainer.innerHTML = `
-    <p>
-      Erro ao carregar receitas.
-    </p>
-  `;
-
 });
 
-/* =========================
-   RENDER
-========================= */
-
 function render() {
-
   bolosContainer.innerHTML = "";
-
   sobremesasContainer.innerHTML = "";
 
-  receitas.forEach((item) => {
+  receitas.forEach(item => {
 
     const card = `
-
-      <article
-      class="recipe-card"
-      data-name="${item.nome.toLowerCase()}">
-
-        <img
-          src="${item.imagem}"
-          alt="${item.nome}"
-          width="400"
-          height="300"
-          loading="lazy"
-          decoding="async"
-        >
-
-        <div class="recipe-info">
-
-          <h3>
-            ${item.nome}
-          </h3>
-
-          <p>
-            ${item.descricao}
-          </p>
-
-          <a
-          href="receita.html?id=${item.id}"
-          class="btn-receita"
-          onclick="salvarScroll()">
-
-            Ver Receita
-
-          </a>
-
-        </div>
-
-      </article>
-
+      <div class="card" data-name="${item.nome.toLowerCase()}">
+        <img src="${item.imagem}" alt="${item.nome}">
+        <h3>${item.nome}</h3>
+        <p>${item.descricao}</p>
+        <a href="receita.html?id=${item.id}">Ver receita</a>
+      </div>
     `;
 
     if (item.categoria === "bolos") {
-
       bolosContainer.innerHTML += card;
-
     } else {
-
       sobremesasContainer.innerHTML += card;
-
     }
 
   });
-
 }
 
-/* =========================
-   BUSCA
-========================= */
+function buscar() {
+  const value = searchInput.value.toLowerCase();
 
-function searchRecipe() {
+  document.querySelectorAll(".card").forEach(card => {
+    const name = card.dataset.name;
 
-  const value =
-    searchInput.value.toLowerCase();
-
-  const cards =
-    document.querySelectorAll(
-      ".recipe-card"
-    );
-
-  let found = false;
-
-  cards.forEach(card => {
-
-    const recipeName =
-      card.dataset.name;
-
-    if (
-      recipeName.includes(value)
-    ) {
-
-      card.scrollIntoView({
-        behavior:"smooth",
-        block:"center"
-      });
-
-      card.style.border =
-        "3px solid #ff6b35";
-
-      found = true;
-
-      setTimeout(() => {
-
-        card.style.border = "none";
-
-      }, 2000);
-
+    if (name.includes(value)) {
+      card.scrollIntoView({ behavior: "smooth" });
+      card.style.border = "2px solid orange";
+      setTimeout(() => card.style.border = "none", 2000);
     }
-
   });
-
-  if (!found && value !== "") {
-
-    alert("Receita não encontrada!");
-
-  }
-
 }
 
-searchBtn.addEventListener(
-  "click",
-  searchRecipe
-);
-
-searchInput.addEventListener(
-  "keyup",
-  (e) => {
-
-    if (e.key === "Enter") {
-
-      searchRecipe();
-
-    }
-
-});
-
-/* =========================
-   RESTAURAR SCROLL
-========================= */
-
-if ('scrollRestoration' in history) {
-
-  history.scrollRestoration =
-    'manual';
-
-}
-
-function restaurarScroll() {
-
-  const pos =
-    localStorage.getItem(
-      "scrollPos"
-    );
-
-  if (pos !== null) {
-
-    window.scrollTo(
-      0,
-      parseInt(pos)
-    );
-
-    localStorage.removeItem(
-      "scrollPos"
-    );
-
-  }
-
-}
-
-window.addEventListener(
-  "pageshow",
-  restaurarScroll
-);
+document.getElementById("searchBtn").onclick = buscar;
 
 </script>
 
