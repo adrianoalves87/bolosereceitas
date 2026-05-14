@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -11,12 +12,14 @@
 <meta name="robots" content="index, follow">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
+
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="./style.css">
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3075990199340465"
-     crossorigin="anonymous"></script>
+<script async
+src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3075990199340465"
+crossorigin="anonymous"></script>
 
 <meta name="google-adsense-account" content="ca-pub-3075990199340465">
 
@@ -25,7 +28,6 @@
 <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
 <link rel="icon" href="./favicon.ico" type="image/x-icon">
 <link rel="apple-touch-icon" href="./apple-touch-icon.png">
-
 
 <meta name="theme-color" content="#ffffff">
 
@@ -49,6 +51,9 @@ Bolos e Receitas
 
 </header>
 
+<!-- MAIN -->
+<main>
+
 <!-- HERO -->
 
 <section class="hero" id="inicio">
@@ -69,7 +74,9 @@ Receitas completas com ingredientes e modo de preparo.
 
 <div class="search-box">
 
-<input type="text" id="searchInput" placeholder="Digite uma receita...">
+<input type="text"
+id="searchInput"
+placeholder="Digite uma receita...">
 
 <button id="searchBtn">
 Buscar
@@ -120,20 +127,28 @@ Sobremesas incríveis e irresistíveis.
 <div class="recipes" id="sobremesasContainer"></div>
 
 </section>
+
+<!-- SOBRE -->
+
 <section class="section" id="sobre">
-  <div class="newsletter">
 
-    <h2>Sobre</h2>
+<div class="newsletter">
 
-    <p>
-      O Bolos e Receitas é um site criado para compartilhar receitas simples, práticas e deliciosas para o dia a dia.
-      Nosso objetivo é ajudar pessoas que gostam de cozinhar em casa, trazendo receitas de bolos, sobremesas e pratos fáceis.
-    </p>
+<h2>Sobre</h2>
 
-  </div>
+<p>
+O Bolos e Receitas é um site criado para compartilhar receitas simples,
+práticas e deliciosas para o dia a dia.
+
+Nosso objetivo é ajudar pessoas que gostam de cozinhar em casa,
+trazendo receitas de bolos, sobremesas e pratos fáceis.
+</p>
+
+</div>
+
 </section>
-<!-- CONTATO -->
 
+<!-- CONTATO -->
 
 <section class="section" id="contato">
 
@@ -151,6 +166,10 @@ bolosereceitas2026@outlook.com
 
 </section>
 
+</main>
+
+<!-- FOOTER -->
+
 <footer>
 
 <h2>
@@ -161,21 +180,21 @@ Bolos e Receitas
 Receitas caseiras fáceis e deliciosas.
 </p>
 
-<a href="politica.html">Política de Privacidade</a>
+<a href="politica.html">
+Política de Privacidade
+</a>
 
-<a href="termos.html">Termos de Uso</a>
+<a href="termos.html">
+Termos de Uso
+</a>
 
 </footer>
 
 <!-- COPYRIGHT -->
 
 <div class="copyright">
-© 2026 Bolos e Receitas  - Todos os direitos reservados.
+© 2026 Bolos e Receitas - Todos os direitos reservados.
 </div>
-
-<!-- MODAL -->
-
-
 
 <script>
 
@@ -204,9 +223,12 @@ let lastScrollTop = 0;
 window.addEventListener("scroll", () => {
 
   const header = document.querySelector("header");
+
   if (!header) return;
 
-  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  const scrollTop =
+    window.pageYOffset ||
+    document.documentElement.scrollTop;
 
   if (scrollTop > lastScrollTop && scrollTop > 80) {
     header.classList.add("hide");
@@ -241,9 +263,11 @@ function render() {
   receitas.forEach((item) => {
 
     const card = `
-      <div class="recipe-card" data-name="${item.nome.toLowerCase()}">
+      <div class="recipe-card"
+           data-name="${item.nome.toLowerCase()}">
 
-        <img src="${item.imagem}" alt="${item.nome}">
+        <img src="${item.imagem}"
+             alt="${item.nome}">
 
         <div class="recipe-info">
 
@@ -281,7 +305,8 @@ function searchRecipe() {
 
   const value = searchInput.value.toLowerCase();
 
-  const cards = document.querySelectorAll(".recipe-card");
+  const cards =
+    document.querySelectorAll(".recipe-card");
 
   let found = false;
 
@@ -316,34 +341,42 @@ function searchRecipe() {
 searchBtn.addEventListener("click", searchRecipe);
 
 searchInput.addEventListener("keyup", (e) => {
+
   if (e.key === "Enter") {
     searchRecipe();
   }
+
 });
 
 /* =========================
-   RESTAURAR POSIÇÃO SEM PULO
+   RESTAURAR POSIÇÃO
 ========================= */
 
-/* impede voltar pro topo automaticamente */
 if ('scrollRestoration' in history) {
   history.scrollRestoration = 'manual';
 }
 
 function restaurarScroll() {
 
-  const pos = localStorage.getItem("scrollPos");
+  const pos =
+    localStorage.getItem("scrollPos");
 
   if (pos !== null) {
+
     window.scrollTo(0, parseInt(pos));
+
     localStorage.removeItem("scrollPos");
+
   }
 }
 
-/* melhor que load (evita flash no topo) */
-window.addEventListener("pageshow", restaurarScroll);
+window.addEventListener(
+  "pageshow",
+  restaurarScroll
+);
 
 </script>
-</body>
 
+</body>
 </html>
+```
