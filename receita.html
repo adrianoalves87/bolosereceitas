@@ -2,66 +2,129 @@
 <html lang="pt-BR">
 
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Receita | Bolos e Receitas</title>
 
-<meta name="description" content="Receita completa passo a passo.">
+<meta name="description" content="Receitas completas de bolos e sobremesas.">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://bolosereceitas.com">
 
 <link rel="stylesheet" href="./style.css">
+
 </head>
 
 <body>
 
 <header>
-<div class="logo">Bolos e Receitas</div>
+
+<div class="logo">
+Bolos e Receitas
+</div>
+
 <nav>
 <a href="index.html">Voltar</a>
 </nav>
+
 </header>
 
+<!-- MAIN -->
 <main>
+
+<section class="section">
+
 <div id="receitaContainer"></div>
+
+</section>
+
 </main>
 
 <script>
 
 fetch("./receitas.json")
-.then(r => r.json())
+.then(res => res.json())
 .then(receitas => {
 
-  const id = new URLSearchParams(location.search).get("id");
+  const params =
+    new URLSearchParams(window.location.search);
 
-  const receita = receitas.find(r => r.id === id);
+  const id = params.get("id");
+
+  const receita =
+    receitas.find(r => r.id === id);
+
+  /* RECEITA NÃO ENCONTRADA */
 
   if (!receita) {
-    document.getElementById("receitaContainer").innerHTML =
-      "<h1>Receita não encontrada</h1>";
+
+    document.getElementById(
+      "receitaContainer"
+    ).innerHTML = `
+      <h1>Receita não encontrada</h1>
+
+      <p>
+        A receita que você procura não existe.
+      </p>
+    `;
+
     return;
   }
 
-  // SEO dinâmico
-  document.title = `${receita.nome} | Bolos e Receitas`;
-  document.querySelector('meta[name="description"]')
-    .setAttribute("content", receita.descricao);
+  /* SEO DINÂMICO */
 
-  document.getElementById("receitaContainer").innerHTML = `
-    <article class="receita">
+  document.title =
+    receita.nome + " | Bolos e Receitas";
 
-      <img src="${receita.imagem}" alt="${receita.nome}">
+  document.querySelector(
+    'meta[name="description"]'
+  ).setAttribute(
+    "content",
+    receita.descricao
+  );
 
-      <h1>${receita.nome}</h1>
+  /* RENDER RECEITA */
 
-      <p>${receita.descricao}</p>
+  document.getElementById(
+    "receitaContainer"
+  ).innerHTML = `
 
-      <div>
+    <article class="recipe-page">
+
+      <img
+        src="${receita.imagem}"
+        alt="${receita.nome}"
+        class="recipe-image"
+      >
+
+      <h1>
+        ${receita.nome}
+      </h1>
+
+      <p>
+        ${receita.descricao}
+      </p>
+
+      <div class="recipe-content">
         ${receita.receita}
       </div>
 
     </article>
+
+  `;
+
+})
+
+.catch(() => {
+
+  document.getElementById(
+    "receitaContainer"
+  ).innerHTML = `
+    <h1>Erro ao carregar receita</h1>
+
+    <p>
+      Tente novamente mais tarde.
+    </p>
   `;
 
 });
