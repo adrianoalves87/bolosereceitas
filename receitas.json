@@ -1,26 +1,381 @@
 [
-  {
-    "id": "bolo-de-cenoura",
-    "slug": "bolo-de-cenoura",
-    "nome": "Bolo de Cenoura",
+ {
+  "id": "bolo-de-cenoura",
+  "slug": "bolo-de-cenoura",
+  "nome": "Bolo de Cenoura",
+  "categoria": "bolos",
+  "imagem": "./cenoura.webp",
+  "descricao": "Bolo fofinho com cobertura de chocolate caseira e massa bem úmida.",
+  "tempoPreparo": "50 minutos",
+  "dificuldade": "fácil",
+  "porcoes": 10,
+  "receita": "<h2>Bolo de Cenoura 🥕</h2><h3>Ingredientes da Massa</h3><ul><li>3 cenouras médias picadas</li><li>3 ovos</li><li>1 xícara de óleo</li><li>2 xícaras de açúcar</li><li>2 xícaras de farinha de trigo</li><li>1 colher (sopa) de fermento em pó</li><li>1 pitada de sal</li></ul><h3>Modo de Preparo da Massa</h3><ol><li>Bata no liquidificador as cenouras, ovos e óleo até formar um creme liso.</li><li>Em uma tigela, misture o açúcar e a farinha.</li><li>Adicione o creme batido e mexa bem até ficar homogêneo.</li><li>Acrescente o fermento e misture levemente.</li><li>Despeje em uma forma untada.</li><li>Leve ao forno pré-aquecido a 180°C por cerca de 40–45 minutos.</li><li>Faça o teste do palito para verificar se está pronto.</li></ol><h3>Cobertura de Chocolate</h3><ul><li>4 colheres de chocolate em pó</li><li>1 colher de manteiga</li><li>1/2 xícara de açúcar</li><li>1/3 xícara de leite</li></ul><h3>Modo de Preparo da Cobertura</h3><ol><li>Coloque tudo em uma panela.</li><li>Leve ao fogo médio mexendo sempre.</li><li>Quando engrossar levemente, desligue.</li><li>Jogue por cima do bolo ainda quente.</li></ol>"
+},
+ 
+ 
+ {
+  "id": "bolo-no-pote-chocolate-coco",
+  "slug": "bolo-no-pote-chocolate-coco",
+  "nome": "Bolo no Pote de Chocolate e Coco",
+  "categoria": "sobremesas",
+  "imagem": "./bolopot.jpg",
+  "descricao": "Bolo no pote molhadinho com massa de chocolate, creme branco, coco e ganache cremosa.",
+  "tempoPreparo": "1 hora e 20 minutos",
+  "dificuldade": "média",
+  "porcoes": 8,
+  "receita": "<h2>Bolo no Pote de Chocolate e Coco 🍫🥥</h2><h3>Ingredientes da Ganache</h3><ul><li>150 gramas de cobertura de chocolate meio amargo</li><li>150 gramas de creme de leite</li></ul><h3>Ingredientes do Creme</h3><ul><li>1 caixinha de leite condensado</li><li>1 caixinha de creme de leite</li><li>120 ml de leite</li><li>6 gramas de amido de milho</li><li>2 gemas</li><li>50 gramas de coco ralado</li></ul><h3>Ingredientes da Massa</h3><ul><li>3 ovos</li><li>180 gramas de açúcar</li><li>180 gramas de farinha de trigo</li><li>120 ml de óleo</li><li>60 gramas de chocolate em pó</li><li>180 ml de leite</li><li>5 gramas de bicarbonato de sódio</li><li>10 gramas de fermento químico em pó</li></ul><h3>Modo de Preparo</h3><ol><li>Em uma tigela, misture os ovos, o açúcar e o óleo até ficar homogêneo.</li><li>Adicione o leite e o chocolate em pó aos poucos, mexendo sempre.</li><li>Acrescente a farinha de trigo e misture bem.</li><li>Finalize adicionando o bicarbonato e o fermento, misturando delicadamente.</li><li>Despeje a massa em forma untada e asse em forno preaquecido a 180°C por cerca de 35 minutos.</li><li>Para o creme, misture leite condensado, leite, amido de milho e gemas em uma panela.</li><li>Leve ao fogo baixo mexendo até engrossar.</li><li>Adicione o creme de leite e misture bem.</li><li>Divida o creme em duas partes e adicione coco ralado em uma delas.</li><li>Para a ganache, derreta o chocolate no micro-ondas de 30 em 30 segundos.</li><li>Misture o creme de leite até formar um creme brilhante.</li><li>Monte os potes fazendo camadas de creme, bolo esfarelado e mais creme.</li><li>Finalize com a ganache de chocolate.</li><li>Na versão de coco, finalize com coco ralado por cima.</li><li>Sirva gelado ou utilize para venda.</li></ol>"
+},
+ 
+
+ {
+  "id": "bolo-de-nozes",
+  "slug": "bolo-de-nozes",
+  "nome": "Bolo de Nozes",
+  "categoria": "bolos",
+  "imagem": "./bnozes.png", 
+  "descricao": "Bolo de nozes macio e sofisticado, perfeito para acompanhar um café especial.",
+  "tempoPreparo": "55 minutos",
+  "dificuldade": "média",
+  "porcoes": 10,
+  "receita": "<h2>Bolo de Nozes 🌰</h2><h3>Ingredientes</h3><ul><li>4 ovos médios</li><li>100 gramas de manteiga em temperatura ambiente</li><li>1 e 1/2 xícara de chá de açúcar mascavo</li><li>1 colher de chá de canela em pó</li><li>2 e 1/2 xícaras de chá de farinha de trigo</li><li>1 xícara de chá de leite integral</li><li>1 xícara de chá de nozes picadas</li><li>1 colher de sopa de fermento químico em pó</li><li>Nozes e açúcar de confeiteiro para decorar</li><li>Manteiga e farinha de trigo para untar</li></ul><h3>Modo de Preparo</h3><ol><li>Unte uma forma redonda com manteiga e farinha de trigo.</li><li>Preaqueça o forno a 180°C por 10 minutos.</li><li>Na batedeira, bata os ovos, a manteiga e o açúcar mascavo até obter um creme claro e fofo.</li><li>Adicione a canela e o leite.</li><li>Peneire a farinha de trigo aos poucos e misture delicadamente até formar uma massa homogênea.</li><li>Acrescente as nozes picadas e misture bem.</li><li>Adicione o fermento e mexa delicadamente.</li><li>Despeje a massa na forma untada.</li><li>Asse por cerca de 35 minutos ou até passar no teste do palito.</li><li>Retire do forno, deixe amornar e desenforme.</li><li>Finalize decorando com açúcar de confeiteiro e nozes.</li><li>Sirva e aproveite.</li></ol>"
+},
+ 
+ 
+ {
+    "id": "bolo-vulcao",
+    "slug": "bolo-vulcao",
+    "nome": "Bolo Vulcão",
     "categoria": "bolos",
-    "imagem": "/imagens/cenoura.webp",
-    "descricao": "Bolo fofinho com cobertura de chocolate caseira e massa bem úmida.",
-    "tempoPreparo": "50 minutos",
-    "dificuldade": "fácil",
-    "porcoes": 10,
-    "receita": "<h2>Bolo de Cenoura 🥕</h2><p>Receita completa aqui</p>"
+    "imagem": "./vulcao.webp",
+    "descricao": "Muito chocolate e cobertura cremosa.",
+    "tempoPreparo": "1 hora",
+    "dificuldade": "média",
+    "porcoes": 12,
+    "receita": "<h2>Bolo Vulcão 🍫</h2><h3>Ingredientes da Massa</h3><ul><li>3 ovos</li><li>1 xícara de açúcar</li><li>1 xícara de chocolate em pó 50% cacau</li><li>2 xícaras de farinha de trigo</li><li>1 xícara de óleo</li><li>1 xícara de leite ou água quente</li><li>1 colher de fermento</li></ul><h3>Ingredientes da Cobertura</h3><ul><li>1 lata de leite condensado</li><li>1 caixinha de creme de leite</li><li>3 colheres de chocolate em pó</li><li>1 colher de manteiga</li></ul><h3>Modo de Preparo</h3><ol><li>Misture ingredientes da massa</li><li>Asse por 35 a 40 minutos</li><li>Faça a cobertura na panela</li><li>Despeje no centro do bolo</li></ol>"
   },
+  
+  
+  
   {
     "id": "bolo-de-chocolate",
     "slug": "bolo-de-chocolate",
     "nome": "Bolo de Chocolate",
     "categoria": "bolos",
-    "imagem": "/imagens/chocolate.jpg",
+    "imagem": "./chocolate.jpg",
     "descricao": "Chocolate intenso delicioso.",
     "tempoPreparo": "50 minutos",
     "dificuldade": "fácil",
     "porcoes": 10,
-    "receita": "<h2>Bolo de Chocolate 🍫</h2><p>Receita completa aqui</p>"
-  }
+    "receita": "<h2>Bolo de Chocolate 🍫</h2><h3>Ingredientes</h3><ul><li>3 ovos</li><li>1 xícara de açúcar</li><li>1 xícara de chocolate em pó</li><li>2 xícaras de farinha</li><li>1 xícara de óleo</li><li>1 xícara de leite</li><li>1 colher de fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Misture tudo</li><li>Asse por 40 minutos</li><li>Prepare a cobertura</li><li>Cubra o bolo</li></ol>"
+  },
+  
+  
+  
+  
+  {
+    "id": "bolo-prestigio",
+    "slug": "bolo-prestigio",
+    "nome": "Bolo Prestígio",
+    "categoria": "bolos",
+    "imagem": "./prestigio.jpg",
+    "descricao": "Bolo de chocolate com recheio de coco.",
+    "tempoPreparo": "1h20",
+    "dificuldade": "média",
+    "porcoes": 12,
+    "receita": "<h2>Bolo Prestígio 🥥🍫</h2><h3>Ingredientes</h3><ul><li>3 ovos</li><li>1/2 xícara de óleo</li><li>1 xícara de leite</li><li>1 xícara de açúcar</li><li>1 xícara de chocolate</li><li>2 xícaras de farinha</li><li>1 colher de fermento</li><li>100g coco ralado</li></ul><h3>Recheio</h3><ul><li>Leite condensado</li><li>Margarina</li><li>Coco ralado</li></ul><h3>Modo de Preparo</h3><ol><li>Prepare massa</li><li>Asse</li><li>Faça recheio</li><li>Monte o bolo</li></ol>"
+  },
+ 
+ 
+ 
+  {
+    "id": "bolo-red-velvet",
+    "slug": "bolo-red-velvet",
+    "nome": "Bolo Red Velvet",
+    "categoria": "bolos",
+    "imagem": "./vald.jpg",
+    "descricao": "Bolo vermelho famoso muito fácil de fazer.",
+    "tempoPreparo": "1 hora",
+    "dificuldade": "média",
+    "porcoes": 10,
+    "receita": "<h2>Bolo Red Velvet ❤️</h2><h3>Ingredientes</h3><ul><li>Leite</li><li>Limão</li><li>Manteiga</li><li>Açúcar</li><li>Ovos</li><li>Farinha</li><li>Corante vermelho</li></ul><h3>Cobertura</h3><ul><li>Cream cheese</li><li>Manteiga</li><li>Açúcar de confeiteiro</li></ul><h3>Modo de Preparo</h3><ol><li>Misture ingredientes</li><li>Asse</li><li>Faça cobertura</li><li>Monte camadas</li></ol>"
+  },
+
+
+
+  {
+    "id": "bolo-de-fuba",
+    "slug": "bolo-de-fuba",
+    "nome": "Bolo de Fubá",
+    "categoria": "bolos",
+    "imagem": "./fuba.jfif",
+    "descricao": "Bolo de fubá caseiro tradicional, simples e fofinho.",
+    "tempoPreparo": "50 minutos",
+    "dificuldade": "fácil",
+    "porcoes": 10,
+    "receita": "<h2>Bolo de Fubá 🌽</h2><h3>Ingredientes</h3><ul><li>Fubá</li><li>Farinha</li><li>Leite</li><li>Ovos</li><li>Açúcar</li><li>Óleo</li><li>Fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Misture tudo</li><li>Asse por 40 minutos</li><li>Espere esfriar</li></ol>"
+  },
+ 
+ 
+ 
+  {
+    "id": "bolo-de-milho-verde",
+    "slug": "bolo-de-milho-verde",
+    "nome": "Bolo de Milho Verde",
+    "categoria": "bolos",
+    "imagem": "./milho.jpg",
+    "descricao": "Bolo de milho verde fofinho e caseiro feito com espiga natural.",
+    "tempoPreparo": "1h10",
+    "dificuldade": "fácil",
+    "porcoes": 12,
+    "receita": "<h2>Bolo de Milho Verde 🌽</h2><h3>Ingredientes</h3><ul><li>2 xícaras de milho verde</li><li>1 xícara de farinha de trigo</li><li>1 xícara de leite</li><li>1 e 1/2 xícara de açúcar</li><li>3 ovos</li><li>3 colheres de margarina</li><li>Coco ralado</li><li>1 colher de fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Bata tudo no liquidificador</li><li>Adicione secos</li><li>Asse por 1 hora</li></ol>"
+  },
+  
+  
+  {
+    "id": "bolo-de-coco",
+    "slug": "bolo-de-coco",
+    "nome": "Bolo de Coco",
+    "categoria": "bolos",
+    "imagem": "./coco.jpg",
+    "descricao": "Bolo fofinho de coco, simples e delicioso.",
+    "tempoPreparo": "45 minutos",
+    "dificuldade": "fácil",
+    "porcoes": 10,
+    "receita": "<h2>Bolo de Coco 🥥</h2><h3>Ingredientes</h3><ul><li>Farinha</li><li>Açúcar</li><li>Coco ralado</li><li>Margarina</li><li>Leite</li><li>Ovos</li><li>Fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Bata claras em neve</li><li>Misture ingredientes</li><li>Asse por 30 minutos</li></ol>"
+  },
+  
+  
+  {
+    "id": "bolo-formigueiro",
+    "slug": "bolo-formigueiro",
+    "nome": "Bolo Formigueiro",
+    "categoria": "bolos",
+    "imagem": "./formigueiro.jfif",
+    "descricao": "Bolo fofinho com chocolate granulado e coco ralado.",
+    "tempoPreparo": "55 minutos",
+    "dificuldade": "fácil",
+    "porcoes": 10,
+    "receita": "<h2>Bolo Formigueiro 🍫</h2><h3>Ingredientes</h3><ul><li>Farinha</li><li>Açúcar</li><li>Ovos</li><li>Manteiga</li><li>Leite</li><li>Chocolate granulado</li><li>Coco ralado</li><li>Fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Bata massa base</li><li>Adicione secos</li><li>Coloque granulado</li><li>Asse por 40 minutos</li></ol>"
+  },
+ 
+ 
+  {
+    "id": "bolo-de-banana",
+    "slug": "bolo-de-banana",
+    "nome": "Bolo de Banana",
+    "categoria": "bolos",
+    "imagem": "./banana.jpg",
+    "descricao": "Bolo fofinho de banana com calda caramelizada.",
+    "tempoPreparo": "50 minutos",
+    "dificuldade": "fácil",
+    "porcoes": 10,
+    "receita": "<h2>Bolo de Banana 🍌</h2><h3>Ingredientes</h3><ul><li>Ovos</li><li>Açúcar</li><li>Leite</li><li>Óleo</li><li>Farinha</li><li>Bananas</li><li>Fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Faça calda</li><li>Bata massa</li><li>Monte com bananas</li><li>Asse por 30 minutos</li></ol>"
+  },
+ 
+ 
+  {
+    "id": "bolo-de-laranja",
+    "slug": "bolo-de-laranja",
+    "nome": "Bolo de Laranja",
+    "categoria": "bolos",
+    "imagem": "./laranja.jpg",
+    "descricao": "Bolo fofinho de laranja com calda cítrica.",
+    "tempoPreparo": "45 minutos",
+    "dificuldade": "fácil",
+    "porcoes": 10,
+    "receita": "<h2>Bolo de Laranja 🍊</h2><h3>Ingredientes</h3><ul><li>Ovos</li><li>Suco de laranja</li><li>Açúcar</li><li>Farinha</li><li>Óleo</li><li>Fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Bata tudo</li><li>Misture farinha</li><li>Asse 35 min</li></ol>"
+  },
+  
+  
+  {
+    "id": "bolo-de-limao",
+    "slug": "bolo-de-limao",
+    "nome": "Bolo de Limão",
+    "categoria": "bolos",
+    "imagem": "./blimao.jpg",
+    "descricao": "Bolo fofinho de limão com cobertura cremosa.",
+    "tempoPreparo": "50 minutos",
+    "dificuldade": "fácil",
+    "porcoes": 10,
+    "receita": "<h2>Bolo de Limão 🍋</h2><h3>Ingredientes</h3><ul><li>Ovos</li><li>Açúcar</li><li>Manteiga</li><li>Leite</li><li>Limão</li><li>Farinha</li><li>Fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Misture massa</li><li>Asse</li><li>Faça cobertura</li></ol>"
+  },
+
+
+
+  {
+    "id": "bolo-de-aipim",
+    "slug": "bolo-de-aipim-mandioca",
+    "nome": "Bolo de Aipim Mandioca",
+    "categoria": "bolos",
+    "imagem": "./baipin.jfif",
+    "descricao": "Bolo de aipim cremoso e tradicional.",
+    "tempoPreparo": "50 minutos",
+    "dificuldade": "fácil",
+    "porcoes": 10,
+    "receita": "<h2>Bolo de Aipim 🍰</h2><h3>Ingredientes</h3><ul><li>Aipim</li><li>Leite</li><li>Açúcar</li><li>Ovos</li><li>Manteiga</li><li>Coco ralado</li></ul><h3>Modo de Preparo</h3><ol><li>Misture tudo</li><li>Asse 35 minutos</li><li>Sirva morno</li></ol>"
+  },
+
+  {
+    "id": "bolo-de-maca-caramelo",
+    "slug": "bolo-de-maca-com-caramelo",
+    "nome": "Bolo de Maçã com Caramelo",
+    "categoria": "bolos",
+    "imagem": "./bmarcn.jpg",
+    "descricao": "Bolo fofinho de maçã com canela e cobertura de caramelo.",
+    "tempoPreparo": "60 minutos",
+    "dificuldade": "média",
+    "porcoes": 12,
+    "receita": "<h2>Bolo de Maçã com Caramelo 🍎</h2><h3>Ingredientes</h3><ul><li>2 maçãs</li><li>3 ovos</li><li>1/2 xícara de açúcar</li><li>120 ml de leite morno</li><li>Canela</li><li>Farinha</li><li>Fermento</li></ul><h3>Modo de Preparo</h3><ol><li>Misture ingredientes</li><li>Asse 30 minutos</li><li>Prepare caramelo</li><li>Cubra o bolo</li></ol>"
+  },
+
+  {
+  "id": "bolo-de-pacoca",
+  "slug": "bolo-de-pacoca-caseiro",
+  "nome": "Bolo de Paçoca",
+  "categoria": "bolos",
+  "imagem": "./pacoca.jpg",
+  "descricao": "Bolo fofinho com sabor intenso de paçoca e cobertura cremosa.",
+  "tempoPreparo": "55 minutos",
+  "dificuldade": "fácil",
+  "porcoes": 10,
+  "receita": "<h2>Bolo de Paçoca 🥜</h2><h3>Ingredientes</h3><ul><li>3 ovos</li><li>1 xícara de açúcar</li><li>1/2 xícara de óleo</li><li>1 xícara de leite</li><li>2 xícaras de farinha de trigo</li><li>1 colher de fermento em pó</li><li>5 paçocas esfareladas</li></ul><h3>Cobertura</h3><ul><li>1 lata de leite condensado</li><li>2 paçocas esfareladas</li><li>1 colher de manteiga</li><li>1/2 caixa de creme de leite</li></ul><h3>Modo de Preparo</h3><ol><li>Em uma tigela, bata os ovos com o açúcar até ficar cremoso</li><li>Adicione o óleo e o leite e misture bem</li><li>Acrescente a farinha aos poucos, mexendo até ficar homogêneo</li><li>Adicione as paçocas esfareladas e misture</li><li>Por último, coloque o fermento e mexa levemente</li><li>Despeje em forma untada e leve ao forno a 180°C por cerca de 35 a 40 minutos</li><li>Para a cobertura, leve ao fogo o leite condensado com a manteiga até engrossar</li><li>Desligue o fogo e misture o creme de leite e a paçoca</li><li>Espalhe sobre o bolo já frio e finalize com paçoca triturada por cima</li></ol>"
+},
+  
+
+
+{
+  "id": "bolo-de-amendoim",
+  "slug": "bolo-de-amendoim",
+  "nome": "Bolo de Amendoim",
+  "categoria": "bolos",
+  "imagem": "./amendoim.jpeg",
+  "descricao": "Bolo fofinho de amendoim com cobertura cremosa de doce de leite.",
+  "tempoPreparo": "1 hora e 5 minutos",
+  "dificuldade": "fácil",
+  "porcoes": 10,
+  "receita": "<h2>Bolo de Amendoim 🥜</h2><h3>Ingredientes</h3><ul><li>2 xícaras de chá de farinha de trigo</li><li>1 colher de sopa de fermento químico em pó</li><li>1 xícara de chá de amendoim torrado e triturado</li><li>1/2 xícara de chá de óleo de milho</li><li>1 xícara de chá de açúcar</li><li>1/2 xícara de chá de leite</li><li>3 ovos (claras e gemas separadas)</li><li>1 xícara de chá de doce de leite cremoso</li><li>1/2 caixa de creme de leite</li><li>Amendoim triturado a gosto</li></ul><h3>Modo de Preparo</h3><ol><li>Bata as claras em neve até formar picos firmes e reserve.</li><li>Em outra tigela, bata as gemas, o açúcar e o óleo até obter uma mistura homogênea.</li><li>Adicione aos poucos a farinha peneirada e o leite, misturando delicadamente.</li><li>Acrescente o amendoim triturado, as claras em neve e o fermento.</li><li>Misture delicadamente com movimentos de baixo para cima.</li><li>Despeje a massa em uma forma untada e enfarinhada.</li><li>Leve ao forno preaquecido a 180°C por 35 a 40 minutos.</li><li>Para a cobertura, misture o doce de leite com o creme de leite.</li><li>Desenforme o bolo e espalhe a cobertura por cima.</li><li>Finalize com amendoim triturado e sirva.</li></ol>"
+},
+
+
+
+ {
+    "id": "pudim-de-leite-condensado",
+    "slug": "pudim-de-leite-condensado",
+    "nome": "Pudim de Leite Condensado",
+    "categoria": "sobremesas",
+    "imagem": "./pudim.jfif",
+    "descricao": "Pudim cremoso com calda de caramelo.",
+    "tempoPreparo": "60 minutos + geladeira",
+    "dificuldade": "fácil",
+    "porcoes": 8,
+    "receita": "<h2>Pudim 🍮</h2><h3>Modo de Preparo</h3><ol><li>Bata ingredientes</li><li>Faça calda</li><li>Asse em banho-maria</li><li>Geladeira</li></ol>"
+  },
+
+ 
+ 
+{
+  "id": "brigadeiro-tradicional",
+  "slug": "brigadeiro-tradicional",
+  "nome": "Brigadeiro Tradicional",
+  "categoria": "doces",
+  "imagem": "./brigadeiro.jfif",
+  "descricao": "Brigadeiro clássico brasileiro, cremoso por dentro e coberto com chocolate granulado.",
+  "tempoPreparo": "30 minutos",
+  "dificuldade": "fácil",
+  "porcoes": 20,
+  "receita": "<h2>Brigadeiro Tradicional 🍫</h2><h3>Ingredientes</h3><ul><li>1 lata de leite condensado</li><li>1 colher de sopa de manteiga</li><li>2 colheres de sopa de chocolate em pó</li><li>Chocolate granulado para enrolar</li></ul><h3>Modo de Preparo</h3><ol><li>Em uma panela, misture leite condensado, manteiga e chocolate em pó</li><li>Cozinhe em fogo médio mexendo sempre até desgrudar do fundo da panela</li><li>Transfira para um prato untado e deixe esfriar</li><li>Unte as mãos com manteiga e enrole as bolinhas</li><li>Passe no chocolate granulado</li><li>Coloque em forminhas e sirva</li></ol>"
+},
+
+ 
+ 
+ {
+  "id": "brownie-de-chocolate",
+  "slug": "brownie-de-chocolate",
+  "nome": "Brownie de Chocolate",
+  "categoria": "sobremesas",
+  "imagem": "./brownie.jpg",
+  "descricao": "Brownie de chocolate intenso, macio por dentro e com casquinha crocante por fora.",
+  "tempoPreparo": "60 minutos",
+  "dificuldade": "média",
+  "porcoes": 12,
+  "receita": "<h2>Brownie de Chocolate 🍫</h2><h3>Ingredientes</h3><ul><li>200g de chocolate meio amargo</li><li>150g de manteiga</li><li>3 ovos</li><li>2 xícaras de açúcar</li><li>1 xícara de farinha de trigo</li><li>1/2 xícara de chocolate em pó</li><li>1 pitada de sal</li><li>1 colher de essência de baunilha</li></ul><h3>Modo de Preparo</h3><ol><li>Derreta o chocolate com a manteiga</li><li>Misture os ovos e o açúcar até ficar homogêneo</li><li>Adicione o chocolate derretido</li><li>Acrescente farinha, chocolate em pó e sal</li><li>Misture bem até formar uma massa lisa</li><li>Despeje em forma untada</li><li>Asse por 30–35 minutos a 180°C</li><li>Retire ainda levemente úmido</li><li>Corte somente depois de esfriar um pouco (ou quente para textura mais cremosa)</li></ol>"
+},
+
+
+
+{
+  "id": "biscoito-champanhe",
+  "slug": "sobremesa-biscoito-champanhe",
+  "nome": "Sobremesa de Biscoito Champanhe",
+  "categoria": "sobremesas",
+  "imagem": "./biscoito.jpg",
+  "descricao": "Sobremesa cremosa em camadas com biscoito champanhe, creme suave e cobertura leve de chocolate.",
+  "tempoPreparo": "60 minutos + geladeira (3 horas)",
+  "dificuldade": "média",
+  "porcoes": 10,
+  "receita": "<h2>Sobremesa de Biscoito Champanhe 🍰</h2><h3>Ingredientes</h3><h4>Creme</h4><ul><li>1 lata de leite condensado</li><li>2 xícaras de leite</li><li>4 gemas</li><li>1 colher de essência de baunilha</li></ul><h4>Base</h4><ul><li>1 pacote de biscoito champanhe</li><li>1 xícara de leite com chocolate em pó</li></ul><h4>Cobertura</h4><ul><li>4 claras em neve</li><li>4 colheres de açúcar</li><li>1 caixa de creme de leite</li><li>2 colheres de chocolate em pó</li></ul><h3>Modo de Preparo</h3><ol><li>Em uma panela, leve ao fogo leite condensado, leite e gemas até engrossar</li><li>Adicione a essência de baunilha e reserve até esfriar</li><li>Bata as claras em neve com açúcar até formar suspiro</li><li>Misture o creme de leite ao suspiro delicadamente</li><li>Umedeça os biscoitos no leite com chocolate em pó</li><li>Monte em camadas: creme, biscoito, creme novamente</li><li>Finalize com a cobertura</li><li>Leve à geladeira por pelo menos 3 horas</li><li>Sirva bem gelado</li></ol>"
+},
+
+  
+  
+{
+  "id": "pave-cremoso-camadas",
+  "slug": "pave-cremoso-camadas",
+  "nome": "Pavê Cremoso em Camadas",
+  "categoria": "sobremesas",
+  "imagem": "./pave.jpg",
+  "descricao": "Pavê cremoso em camadas com creme, biscoito champanhe e cobertura suave de chocolate.",
+  "tempoPreparo": "60 minutos + geladeira (3 horas)",
+  "dificuldade": "média",
+  "porcoes": 10,
+  "receita": "<h2>Pavê Cremoso 🍰</h2><h3>Ingredientes</h3><h4>Creme</h4><ul><li>1 lata de leite condensado</li><li>2 xícaras de leite</li><li>4 gemas</li><li>1 colher de essência de baunilha</li><li>2 colheres de amido de milho</li></ul><h4>Camadas</h4><ul><li>1 pacote de biscoito champanhe</li><li>1 xícara de leite com chocolate em pó (para umedecer)</li></ul><h4>Cobertura</h4><ul><li>4 claras</li><li>4 colheres de açúcar</li><li>1 caixa de creme de leite</li><li>2 colheres de chocolate em pó</li></ul><h3>Modo de Preparo</h3><ol><li>Em uma panela, misture leite condensado, leite, gemas e amido de milho</li><li>Cozinhe até engrossar e finalize com baunilha</li><li>Reserve e deixe esfriar</li><li>Bata as claras em neve com açúcar até formar suspiro</li><li>Misture o creme de leite ao suspiro e reserve</li><li>Umedeça os biscoitos no leite com chocolate</li><li>Monte o pavê em camadas: creme, biscoito, creme novamente</li><li>Finalize com a cobertura</li><li>Leve à geladeira por no mínimo 3 horas</li><li>Sirva bem gelado</li></ol>"
+},
+
+  
+  
+{
+  "id": "sorvete-trufado",
+  "slug": "sorvete-trufado",
+  "nome": "Sorvete Trufado",
+  "categoria": "sobremesas",
+  "imagem": "./trufado.jpg",
+  "descricao": "Sobremesa gelada trufada com camadas de sorvete, brigadeiro e ganache de chocolate.",
+  "tempoPreparo": "60 minutos + congelamento",
+  "dificuldade": "média",
+  "porcoes": 12,
+  "receita": "<h2>Sorvete Trufado 🍨🍫</h2><h3>Ingredientes</h3><h4>Brigadeiro</h4><ul><li>1 lata de leite condensado</li><li>2 colheres de sopa de chocolate em pó</li><li>1 colher de sopa de manteiga</li></ul><h4>Trufa de Chocolate</h4><ul><li>200g de chocolate meio amargo</li><li>1 caixa de creme de leite</li><li>1 colher de sopa de glucose de milho (opcional)</li></ul><h4>Montagem</h4><ul><li>1 pote de sorvete de creme (ou sabor de sua preferência)</li><li>Chocolate ao leite derretido para cobertura</li></ul><h3>Modo de Preparo</h3><ol><li>Em uma panela, faça o brigadeiro: misture leite condensado, chocolate em pó e manteiga</li><li>Cozinhe em fogo médio até desgrudar do fundo da panela</li><li>Reserve e deixe esfriar</li><li>Derreta o chocolate meio amargo no micro-ondas ou banho-maria</li><li>Misture com o creme de leite até formar uma ganache lisa</li><li>Adicione a glucose se quiser mais brilho e textura</li><li>Em uma forma forrada com plástico filme, faça camadas de sorvete, brigadeiro e ganache</li><li>Repita as camadas até preencher a forma</li><li>Leve ao congelador por pelo menos 6 horas ou até firmar bem</li><li>Desenforme e cubra com chocolate ao leite derretido antes de servir</li></ol>"
+},
+
+ 
+ 
+ {
+  "id": "cheesecake",
+  "slug": "cheesecake",
+  "nome": "Cheesecake",
+  "categoria": "sobremesas",
+  "imagem": "./chees.jpg",
+  "descricao": "Cheesecake cremosa clássica com base crocante de biscoito e recheio suave de cream cheese.",
+  "tempoPreparo": "60 minutos + geladeira (4 horas)",
+  "dificuldade": "média",
+  "porcoes": 10,
+  "receita": "<h2>Cheesecake 🍰</h2><h3>Ingredientes</h3><h4>Base</h4><ul><li>200g de biscoito maisena</li><li>100g de manteiga derretida</li></ul><h4>Recheio</h4><ul><li>300g de cream cheese</li><li>1 caixa de creme de leite</li><li>1 lata de leite condensado</li><li>3 ovos</li><li>1 colher de essência de baunilha</li><li>Raspas de limão (opcional)</li></ul><h4>Cobertura (opcional)</h4><ul><li>Geleia de frutas vermelhas ou morango</li><li>Ou calda de frutas de sua preferência</li></ul><h3>Modo de Preparo</h3><ol><li>Triture o biscoito maisena até virar farinha fina</li><li>Misture com a manteiga derretida até formar uma massa úmida</li><li>Forre o fundo de uma forma de aro removível e pressione bem</li><li>Leve ao forno por 10 minutos a 180°C e reserve</li><li>No liquidificador ou batedeira, bata o cream cheese, leite condensado, creme de leite, ovos e baunilha até ficar cremoso</li><li>Despeje o creme sobre a base já assada</li><li>Leve ao forno a 180°C por aproximadamente 40 minutos ou até firmar levemente no centro</li><li>Retire do forno e deixe esfriar completamente</li><li>Leve à geladeira por pelo menos 4 horas (ideal de um dia para o outro)</li><li>Finalize com cobertura de sua preferência antes de servir</li></ol>"
+},
+
+
+ {
+  "id": "biscoito-polvilho-doce",
+  "slug": "biscoito-polvilho-doce",
+  "nome": "Biscoito de Polvilho Doce",
+  "categoria": "biscoitos",
+  "imagem": "./bolacha.jpg",
+  "descricao": "Biscoito caseiro crocante por fora e macio por dentro, perfeito para o café da tarde.",
+  "tempoPreparo": "1 hora",
+  "dificuldade": "fácil",
+  "porcoes": 40,
+  "receita": "<h2>Biscoito de Polvilho Doce 🍪</h2><h3>Ingredientes</h3><ul><li>500 g de polvilho doce</li><li>1 xícara de farinha de trigo</li><li>250 g de margarina</li><li>1 xícara (chá) de açúcar</li><li>1 colher (café) de fermento em pó químico</li><li>2 ovos</li><li>100 g de coco ralado (opcional)</li></ul><h3>Modo de Preparo</h3><ol><li>Em uma tigela grande, misture o polvilho doce, a farinha de trigo, o açúcar e o fermento.</li><li>Adicione a margarina e misture bem até formar uma farofa úmida.</li><li>Acrescente os ovos e continue misturando até obter uma massa homogênea.</li><li>Se desejar, adicione o coco ralado e misture novamente.</li><li>Modele os biscoitos no formato desejado.</li><li>Distribua em uma assadeira untada ou forrada com papel manteiga.</li><li>Leve ao forno médio pré-aquecido a 180°C por cerca de 20 a 30 minutos, ou até dourar levemente na parte de baixo.</li><li>Retire do forno, espere esfriar e sirva.</li></ol>"
+}
+
+
+
+
 ]
