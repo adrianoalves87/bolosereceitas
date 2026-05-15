@@ -9,207 +9,185 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- CATEGORIAS -->
-  <url>
-    <loc>https://bolosereceitas.com/bolos</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://bolosereceitas.com/sobremesas</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://bolosereceitas.com/doces</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
   <!-- RECEITAS -->
 
   <url>
-    <loc>https://bolosereceitas.com/receitas/bolo-de-cenoura</loc>
+    <loc>https://bolosereceitas.com/receita.html?id=bolo-de-cenoura</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://bolosereceitas.com/receitas/bolo-no-pote-chocolate-coco</loc>
+    <loc>https://bolosereceitas.com/receita.html?id=bolo-no-pote-chocolate-coco</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://bolosereceitas.com/receitas/bolo-de-nozes</loc>
+    <loc>https://bolosereceitas.com/receita.html?id=bolo-de-nozes</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://bolosereceitas.com/receitas/bolo-vulcao</loc>
+    <loc>https://bolosereceitas.com/receita.html?id=bolo-vulcao</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://bolosereceitas.com/receitas/bolo-de-chocolate</loc>
+    <loc>https://bolosereceitas.com/receita.html?id=bolo-de-chocolate</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://bolosereceitas.com/receitas/bolo-prestigio</loc>
+    <loc>https://bolosereceitas.com/receita.html?id=bolo-prestigio</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://bolosereceitas.com/receitas/bolo-red-velvet</loc>
+    <loc>https://bolosereceitas.com/receita.html?id=bolo-red-velvet</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://bolosereceitas.com/receitas/bolo-de-fuba</loc>
+    <loc>https://bolosereceitas.com/receita.html?id=bolo-de-fuba</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://bolosereceitas.com/receitas/bolo-de-milho-verde</loc>
+    <loc>https://bolosereceitas.com/receita.html?id=bolo-de-milho-verde</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://bolosereceitas.com/receitas/bolo-de-coco</loc>
+    <loc>https://bolosereceitas.com/receita.html?id=bolo-de-coco</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://bolosereceitas.com/receitas/bolo-formigueiro</loc>
+    <loc>https://bolosereceitas.com/receita.html?id=bolo-formigueiro</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://bolosereceitas.com/receitas/bolo-de-banana</loc>
+    <loc>https://bolosereceitas.com/receita.html?id=bolo-de-banana</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://bolosereceitas.com/receitas/bolo-de-laranja</loc>
+    <loc>https://bolosereceitas.com/receita.html?id=bolo-de-laranja</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://bolosereceitas.com/receitas/bolo-de-limao</loc>
+    <loc>https://bolosereceitas.com/receita.html?id=bolo-de-limao</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://bolosereceitas.com/receitas/bolo-de-aipim-mandioca</loc>
+    <loc>https://bolosereceitas.com/receita.html?id=bolo-de-aipim-mandioca</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://bolosereceitas.com/receitas/bolo-de-maca-com-caramelo</loc>
+    <loc>https://bolosereceitas.com/receita.html?id=bolo-de-maca-com-caramelo</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://bolosereceitas.com/receitas/bolo-de-pacoca-caseiro</loc>
+    <loc>https://bolosereceitas.com/receita.html?id=bolo-de-pacoca-caseiro</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://bolosereceitas.com/receitas/bolo-de-amendoim</loc>
+    <loc>https://bolosereceitas.com/receita.html?id=bolo-de-amendoim</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://bolosereceitas.com/receitas/pudim-de-leite-condensado</loc>
+    <loc>https://bolosereceitas.com/receita.html?id=pudim-de-leite-condensado</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://bolosereceitas.com/receitas/brigadeiro-tradicional</loc>
+    <loc>https://bolosereceitas.com/receita.html?id=brigadeiro-tradicional</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://bolosereceitas.com/receitas/brownie-de-chocolate</loc>
+    <loc>https://bolosereceitas.com/receita.html?id=brownie-de-chocolate</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://bolosereceitas.com/receitas/sobremesa-biscoito-champanhe</loc>
+    <loc>https://bolosereceitas.com/receita.html?id=sobremesa-biscoito-champanhe</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://bolosereceitas.com/receitas/pave-cremoso-camadas</loc>
+    <loc>https://bolosereceitas.com/receita.html?id=pave-cremoso-camadas</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://bolosereceitas.com/receitas/sorvete-trufado</loc>
+    <loc>https://bolosereceitas.com/receita.html?id=sorvete-trufado</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://bolosereceitas.com/receitas/cheesecake</loc>
+    <loc>https://bolosereceitas.com/receita.html?id=cheesecake</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://bolosereceitas.com/receitas/biscoito-polvilho-doce</loc>
+    <loc>https://bolosereceitas.com/receita.html?id=biscoito-polvilho-doce</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
