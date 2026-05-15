@@ -51,7 +51,8 @@ fetch("./receitas.json")
 
   const id = params.get("id");
 
-  receitas.find(r => r.slug === id);
+  const receita =
+    receitas.find(r => r.id === id);
 
   /* RECEITA NÃO ENCONTRADA */
 
